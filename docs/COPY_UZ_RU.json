@@ -1,0 +1,240 @@
+{
+  "uz": {
+    "title": "EduStart — Ingliz tili uchun yangi boshlanish",
+    "description": "Ingliz tili va IELTS o‘quv markazi uchun EduStart namuna sayti. Kurslar, o‘qish jarayoni va aloqa.",
+    "demo": "DEMO SHABLON · Kurslar va jamoa haqidagi matnlarni markazingizga moslang.",
+    "skip": "Asosiy mazmunga o‘tish",
+    "nav": [
+      "Kurslar",
+      "Yondashuv",
+      "Ustozlar",
+      "Savollar"
+    ],
+    "cta": "Maslahat olish",
+    "eyebrow": "INGLIZ TILI · IELTS · YANGI IMKONIYATLAR",
+    "hero": "Keyingi qadamingiz.<br>Ingliz tilida.",
+    "intro": "Maqsadingizga mos yo‘nalishni tanlang. Boshlang‘ich suhbatdan birinchi darsgacha — aniq va tushunarli yo‘l.",
+    "primary": "Yo‘nalishimni tanlayman",
+    "secondary": "Kurslarni ko‘rish",
+    "micro": "Avval suhbatlashamiz. So‘ng mos guruhni tanlaymiz.",
+    "arttitle": "Sizning o‘qish yo‘lingiz",
+    "art": [
+      "Maqsadni aniqlash",
+      "Darajani baholash",
+      "Reja asosida mashq"
+    ],
+    "label": "BIRINCHI QADAM",
+    "artnote": "Bugungi kichik qadam — yangi imkoniyatning boshlanishi.",
+    "section": [
+      "O‘zingizga mos yo‘nalish.",
+      "Bilimni amaliyotga aylantiring.",
+      "Ustozingiz bilan tanishing.",
+      "Boshlash uchun aniq yo‘l.",
+      "Savolingiz bormi?",
+      "Keling, maqsadingizdan boshlaymiz."
+    ],
+    "courseintro": "Quyidagi yo‘nalishlar namunaviy. Guruh, jadval va narxni markaz administratori bilan aniqlang.",
+    "courses": [
+      [
+        "01 / ASOS",
+        "General English",
+        "Kundalik muloqot, grammatika va lug‘atni birga rivojlantirish.",
+        "Boshlang‘ich va davom etuvchi darajalar"
+      ],
+      [
+        "02 / MAQSAD",
+        "IELTS tayyorgarlik",
+        "Listening, Reading, Writing va Speaking bo‘yicha yo‘naltirilgan mashqlar.",
+        "Darajangizga mos tayyorgarlik"
+      ],
+      [
+        "03 / AMALIYOT",
+        "Speaking amaliyoti",
+        "Fikringizni tushunarli ifodalash va suhbatda faol qatnashish.",
+        "Muloqotga yo‘naltirilgan mashg‘ulotlar"
+      ]
+    ],
+    "approach": [
+      [
+        "Maqsadli reja",
+        "Qayerdan boshlayotganingiz va nimaga erishmoqchi ekaningizni aniqlang."
+      ],
+      [
+        "Doimiy amaliyot",
+        "O‘rganilgan mavzularni tinglash, yozish va suhbatda qo‘llang."
+      ],
+      [
+        "Tushunarli fikr-mulohaza",
+        "Qaysi ko‘nikmani rivojlantirish kerakligini ustoz bilan muhokama qiling."
+      ]
+    ],
+    "teamintro": "Bu joyga haqiqiy ustozlar, ularning tekshirilgan tajribasi va o‘qitadigan yo‘nalishini kiriting.",
+    "teacher": "Ustoz ismi",
+    "teacherrole": "Yo‘nalishi va tasdiqlangan malakasi",
+    "teacherbio": "Qisqa tanishtiruv: dars uslubi va o‘quvchiga qanday yordam berishi.",
+    "placeholder": "PROFIL NAMUNASI",
+    "steps": [
+      [
+        "Yozing",
+        "Telegram orqali maqsadingizni ayting."
+      ],
+      [
+        "Suhbatlashing",
+        "Daraja, jadval va shartlarni aniqlang."
+      ],
+      [
+        "Boshlang",
+        "Mos guruhni tanlab, birinchi darsga keling."
+      ]
+    ],
+    "faq": [
+      [
+        "Qaysi kurs menga mos?",
+        "Boshlang‘ich darajangiz va maqsadingizni administratorga ayting. Shundan keyin mos yo‘nalish va guruh haqida ma’lumot olasiz."
+      ],
+      [
+        "Darslar qachon bo‘ladi?",
+        "Amaldagi jadval guruhga qarab farq qiladi. Sizga qulay vaqtni yozing va mavjud guruhlarni aniqlang."
+      ],
+      [
+        "Kurs narxi qancha?",
+        "Joriy narx, to‘lov muddati va kurs tarkibini administrator bilan aniqlang. Bu namuna saytda haqiqiy kurs narxlari keltirilmagan."
+      ],
+      [
+        "IELTS bali kafolatlanadimi?",
+        "Natija boshlang‘ich daraja, mustaqil mashq va boshqa omillarga bog‘liq. Ushbu shablon muayyan ball yoki natijani va’da qilmaydi."
+      ]
+    ],
+    "contactintro": "Darajangiz, maqsadingiz va qulay vaqtingizni yozing. Administrator bilan keyingi qadamni aniqlang.",
+    "telegram": "Telegram orqali yozish",
+    "phone": "Qo‘ng‘iroq qilish",
+    "map": "Xaritada ko‘rish",
+    "address": "Markaz manzili bu yerga yoziladi",
+    "hours": "Ish vaqti administrator bilan aniqlanadi",
+    "footer": "Ingliz tili uchun yangi boshlanish.",
+    "menulabel": "Menyuni ochish yoki yopish",
+    "dialogtitle": "Bu namuna sayt",
+    "dialogtext": "Aloqa ma’lumotlari hali sozlanmagan. Shablon egasi config.js fayliga o‘z telefon, Telegram va xarita ma’lumotlarini kiritadi.",
+    "close": "Tushunarli",
+    "note": "Ushbu sahifa namuna. Kurslar, ustozlar va shartlar haqidagi ma’lumotlarni nashrdan oldin tekshiring."
+  },
+  "ru": {
+    "title": "EduStart — новый старт в английском",
+    "description": "Демонстрационный сайт EduStart для центра английского языка и IELTS. Курсы, обучение и контакты.",
+    "demo": "ДЕМОШАБЛОН · Замените сведения о курсах и команде данными вашего центра.",
+    "skip": "Перейти к содержанию",
+    "nav": [
+      "Курсы",
+      "Подход",
+      "Преподаватели",
+      "Вопросы"
+    ],
+    "cta": "Консультация",
+    "eyebrow": "АНГЛИЙСКИЙ · IELTS · НОВЫЕ ВОЗМОЖНОСТИ",
+    "hero": "Ваш следующий шаг.<br>На английском.",
+    "intro": "Выберите направление под свою цель. От первого разговора до первого занятия — понятный путь без лишней сложности.",
+    "primary": "Выбрать направление",
+    "secondary": "Посмотреть курсы",
+    "micro": "Сначала обсудим цель. Затем подберём группу.",
+    "arttitle": "Ваш путь в обучении",
+    "art": [
+      "Определить цель",
+      "Оценить уровень",
+      "Практиковаться по плану"
+    ],
+    "label": "ПЕРВЫЙ ШАГ",
+    "artnote": "Небольшой шаг сегодня — начало новых возможностей.",
+    "section": [
+      "Найдите своё направление.",
+      "Превращайте знания в практику.",
+      "Познакомьтесь с преподавателем.",
+      "Понятный путь к первому занятию.",
+      "Есть вопросы?",
+      "Начнём с вашей цели."
+    ],
+    "courseintro": "Направления ниже приведены для примера. Уточните группы, расписание и стоимость у администратора центра.",
+    "courses": [
+      [
+        "01 / ОСНОВА",
+        "General English",
+        "Развивайте повседневную речь, грамматику и словарный запас вместе.",
+        "Для начинающих и продолжающих"
+      ],
+      [
+        "02 / ЦЕЛЬ",
+        "Подготовка к IELTS",
+        "Направленные упражнения по Listening, Reading, Writing и Speaking.",
+        "Подготовка с учётом вашего уровня"
+      ],
+      [
+        "03 / ПРАКТИКА",
+        "Разговорный английский",
+        "Учитесь понятно выражать мысли и активно участвовать в разговоре.",
+        "Занятия с упором на общение"
+      ]
+    ],
+    "approach": [
+      [
+        "План под цель",
+        "Определите исходный уровень и то, чего хотите достичь."
+      ],
+      [
+        "Регулярная практика",
+        "Применяйте изученное в аудировании, письме и разговоре."
+      ],
+      [
+        "Понятная обратная связь",
+        "Обсуждайте с преподавателем, какие навыки стоит развивать дальше."
+      ]
+    ],
+    "teamintro": "Добавьте сюда реальных преподавателей, подтверждённый опыт и направления, которые они ведут.",
+    "teacher": "Имя преподавателя",
+    "teacherrole": "Направление и подтверждённая квалификация",
+    "teacherbio": "Краткое представление: подход к занятиям и помощь ученику.",
+    "placeholder": "ПРИМЕР ПРОФИЛЯ",
+    "steps": [
+      [
+        "Напишите",
+        "Расскажите о своей цели в Telegram."
+      ],
+      [
+        "Обсудите",
+        "Уточните уровень, расписание и условия."
+      ],
+      [
+        "Начните",
+        "Выберите подходящую группу и приходите на занятие."
+      ]
+    ],
+    "faq": [
+      [
+        "Какой курс мне подходит?",
+        "Расскажите администратору о своём уровне и цели. После этого вы сможете узнать о подходящем направлении и группе."
+      ],
+      [
+        "Когда проходят занятия?",
+        "Расписание зависит от группы. Напишите, какое время вам удобно, и уточните доступные варианты."
+      ],
+      [
+        "Сколько стоит обучение?",
+        "Актуальную цену, порядок оплаты и состав курса уточните у администратора. На этом демосайте нет реальных цен на обучение."
+      ],
+      [
+        "Гарантируется ли балл IELTS?",
+        "Результат зависит от исходного уровня, самостоятельной практики и других факторов. Шаблон не обещает определённый балл или результат."
+      ]
+    ],
+    "contactintro": "Напишите о своём уровне, цели и удобном времени. Обсудите следующий шаг с администратором.",
+    "telegram": "Написать в Telegram",
+    "phone": "Позвонить",
+    "map": "Открыть карту",
+    "address": "Здесь будет адрес вашего центра",
+    "hours": "Режим работы уточняется у администратора",
+    "footer": "Новый старт в английском.",
+    "menulabel": "Открыть или закрыть меню",
+    "dialogtitle": "Это демонстрационный сайт",
+    "dialogtext": "Контакты ещё не настроены. Владелец шаблона указывает свой телефон, Telegram и ссылку на карту в файле config.js.",
+    "close": "Понятно",
+    "note": "Это демонстрационная страница. Перед публикацией проверьте сведения о курсах, преподавателях и условиях."
+  }
+}

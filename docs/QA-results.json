@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03",
+  "version": "0.1.0",
+  "static_checks": [
+    {
+      "file": "index.html",
+      "sections": 7,
+      "lang": "uz",
+      "unique_ids": true,
+      "local_links_and_assets_exist": true,
+      "viewport_meta": true
+    },
+    {
+      "file": "ru.html",
+      "sections": 7,
+      "lang": "ru",
+      "unique_ids": true,
+      "local_links_and_assets_exist": true,
+      "viewport_meta": true
+    }
+  ],
+  "javascript_syntax": "PASS: node --check on app.js and config.js",
+  "browser_checks": "NOT RUN: Playwright browser absent; browser download returned an invalid archive",
+  "visual_checks": "NOT RUN",
+  "real_contact_delivery": "NOT RUN; no outbound contact sent",
+  "release_status": "DRAFT: browser QA and cover pending"
+}

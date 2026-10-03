@@ -1,0 +1,16 @@
+EDUSTART — SINGLE BUSINESS LICENSE, SELLER DRAFT
+Version 0.1, 3 October 2026
+
+The seller should approve these terms and identify the seller on the product listing before publication. These terms describe the intended license for the original EduStart HTML/CSS/JS files supplied in this package.
+
+One purchase permits the purchaser to use and modify the template for one business website, including one client business. Local development, staging and backup copies for that same website are permitted. The purchaser may deploy both included language versions for that one business.
+
+The purchaser may not resell, redistribute, sublicense, share, or give away the template or a modified version as a template, download, theme, or competing digital product. Use for a second business requires another license. A client receiving its finished website may operate that website under the same license; the developer may not reuse that purchase for unrelated clients.
+
+The template includes only the files listed in the package. Domain registration, hosting, installation, ongoing maintenance, guaranteed commercial results, and guaranteed search ranking are not included. The purchaser is responsible for the accuracy and lawfulness of its business content and for rights to any added images, marks, or text.
+
+No third-party photographs, web fonts, or JavaScript libraries are included in this version. The editable illustrated placeholder is not a real teacher profile. Any third-party materials added later retain their respective terms.
+
+The template is supplied as-is, to the extent permitted by applicable law. Mandatory consumer rights remain unaffected. Refund and support terms must be stated by the seller in the listing and must not conflict with applicable law or platform rules.
+
+Commercial intent: $19 per single-business license. Local customization is a separately scoped service, not an expansion of redistribution rights.
