@@ -1,0 +1,6 @@
+interface:
+  display_name: "ECC TDD Workflow"
+  short_description: "Test behavior with the existing Node.js runner"
+  default_prompt: "Use $ecc-tdd-workflow to fix an EduStart behavior with a failing regression test."
+policy:
+  allow_implicit_invocation: true

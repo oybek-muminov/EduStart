@@ -1,0 +1,6 @@
+interface:
+  display_name: "ECC Coding Standards"
+  short_description: "Readable JavaScript and focused code review"
+  default_prompt: "Use $ecc-coding-standards to review EduStart JavaScript and HTML changes."
+policy:
+  allow_implicit_invocation: true
