@@ -1,12 +1,88 @@
 'use strict';
-// Verify ZIP central-directory entries, expanded bytes/CRC and every manifest hash.
-const fs=require('node:fs');const zlib=require('node:zlib');const crypto=require('node:crypto');const assert=require('node:assert/strict');
-const filename='release/EduStart_UZ_RU_EN_v1.0.0.zip';const zip=fs.readFileSync(filename);const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
-const table=Array.from({length:256},(_,i)=>{let c=i;for(let n=0;n<8;n++)c=c&1?0xedb88320^(c>>>1):c>>>1;return c>>>0;});
-const crc=b=>{let c=0xffffffff;for(const v of b)c=table[(c^v)&255]^(c>>>8);return (c^0xffffffff)>>>0;};
-let eocd=-1;for(let i=zip.length-22;i>=Math.max(0,zip.length-65557);i--)if(zip.readUInt32LE(i)===0x06054b50){eocd=i;break;}assert.ok(eocd>=0);
-const count=zip.readUInt16LE(eocd+10);let pos=zip.readUInt32LE(eocd+16);const entries=new Map();
-for(let i=0;i<count;i++){assert.equal(zip.readUInt32LE(pos),0x02014b50);const method=zip.readUInt16LE(pos+10),expectedCRC=zip.readUInt32LE(pos+16),size=zip.readUInt32LE(pos+20),expanded=zip.readUInt32LE(pos+24),n=zip.readUInt16LE(pos+28),extra=zip.readUInt16LE(pos+30),comment=zip.readUInt16LE(pos+32),offset=zip.readUInt32LE(pos+42);const name=zip.subarray(pos+46,pos+46+n).toString('utf8').replaceAll('\\','/');pos+=46+n+extra+comment;assert.ok(!name.startsWith('/')&&!name.split('/').includes('..'));if(name.endsWith('/'))continue;assert.equal(zip.readUInt32LE(offset),0x04034b50);const dataStart=offset+30+zip.readUInt16LE(offset+26)+zip.readUInt16LE(offset+28);const compressed=zip.subarray(dataStart,dataStart+size),b=method===8?zlib.inflateRawSync(compressed):method===0?compressed:null;assert.ok(b);assert.equal(b.length,expanded,name);assert.equal(crc(b),expectedCRC,name);assert.ok(!entries.has(name));entries.set(name,b);}
-const manifestName=[...entries.keys()].find(x=>x.endsWith('/MANIFEST.json'));assert.ok(manifestName);const prefix=manifestName.slice(0,-'MANIFEST.json'.length);const manifest=JSON.parse(entries.get(manifestName));assert.equal(entries.size,manifest.files.length+1);
-for(const f of manifest.files){const bytes=entries.get(prefix+f.file);assert.ok(bytes,f.file);assert.equal(bytes.length,f.bytes);assert.equal(sha(bytes),f.sha256);assert.ok(bytes.equals(fs.readFileSync('release/stage/EduStart_UZ_RU_EN_v1.0.0/'+f.file)));}
-const result={filename,bytes:zip.length,sha256:sha(zip),files:entries.size,crc:'PASS',manifest_and_stage_bytes:'PASS',version:manifest.version,technical_qa:'passed',review_state:'awaiting-independent-review',published:false};fs.writeFileSync('release/ZIP-VERIFIED-v1.0.0.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));
+// Validate raw ZIP paths, local/central consistency, CRC, manifest and stage bytes.
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const { assertPortablePath, readZip, sha256 } = require('./product-zip.cjs');
+const DEFAULT_VERSION = '1.0.1', SOURCE_VERSION = '1.0.0';
+
+function assertVersion(version) {
+  assert.match(version, /^\d+\.\d+\.\d+$/, 'Use a version such as 1.0.1');
+  return version;
+}
+
+function stageFiles(folder, relative = '') {
+  return fs.readdirSync(path.join(folder, relative), { withFileTypes: true }).flatMap(entry => {
+    const file = relative ? `${relative}/${entry.name}` : entry.name;
+    assertPortablePath(file);
+    assert.ok(!entry.isSymbolicLink(), `Stage symlink is forbidden: ${file}`);
+    if (entry.isDirectory()) return stageFiles(folder, file);
+    assert.ok(entry.isFile(), `Stage contains a non-file: ${file}`);
+    return [file];
+  });
+}
+
+function verifyProductZip({ root = path.resolve(__dirname, '..'), version = DEFAULT_VERSION, writeReport = true } = {}) {
+  assertVersion(version);
+  const packageName = `EduStart_UZ_RU_EN_v${version}`;
+  const filename = `release/${packageName}.zip`, zip = fs.readFileSync(path.join(root, filename));
+  const entries = readZip(zip), prefix = `${packageName}/`, manifestName = `${prefix}MANIFEST.json`;
+  assert.ok(entries.has(manifestName), 'Expected package MANIFEST.json is missing');
+  const manifestBytes = entries.get(manifestName), manifest = JSON.parse(manifestBytes.toString('utf8'));
+  assert.equal(manifest.version, version, 'Manifest version disagrees with package name');
+  if (version !== SOURCE_VERSION) {
+    assert.equal(manifest.package_version, version, 'Package version is missing or wrong');
+    assert.equal(manifest.source_version, SOURCE_VERSION, 'Source version is wrong');
+    assert.equal(manifest.qa_version, SOURCE_VERSION, 'Historical QA version is wrong');
+  }
+  assert.ok(Array.isArray(manifest.files), 'Manifest file list is missing');
+  assert.equal(entries.size, manifest.files.length + 1, 'ZIP and manifest file counts disagree');
+  const folder = path.join(root, 'release/stage', packageName), expectedFiles = new Set(['MANIFEST.json']);
+  for (const file of manifest.files) {
+    assertPortablePath(file.file);
+    assert.ok(!expectedFiles.has(file.file), `Duplicate manifest file: ${file.file}`);
+    expectedFiles.add(file.file);
+    const bytes = entries.get(prefix + file.file);
+    assert.ok(bytes, `Missing ZIP file: ${file.file}`);
+    assert.equal(bytes.length, file.bytes, `Manifest byte count mismatch: ${file.file}`);
+    assert.equal(sha256(bytes), file.sha256, `Manifest SHA256 mismatch: ${file.file}`);
+    assert.ok(bytes.equals(fs.readFileSync(path.join(folder, file.file))), `Stage bytes mismatch: ${file.file}`);
+  }
+  assert.ok(manifestBytes.equals(fs.readFileSync(path.join(folder, 'MANIFEST.json'))), 'Stage manifest bytes mismatch');
+  assert.ok(manifestBytes.equals(fs.readFileSync(path.join(root, `release/MANIFEST-v${version}.json`))), 'Release manifest bytes mismatch');
+  assert.deepEqual(stageFiles(folder).sort(), [...expectedFiles].sort(), 'Unexpected stage files');
+  const qa = JSON.parse(entries.get(prefix + `docs/QA-v${SOURCE_VERSION}.json`));
+  assert.equal(qa.version, SOURCE_VERSION, 'QA version mismatch');
+  assert.equal(qa.status, 'passed', 'Historical source QA has not passed');
+  assert.equal(Object.keys(qa.assets).length, 7, 'Expected seven source hashes');
+  for (const [file, hash] of Object.entries(qa.assets)) {
+    assertPortablePath(file);
+    assert.equal(sha256(entries.get(prefix + 'site/' + file)), hash, `Source/QA hash mismatch: ${file}`);
+  }
+  assert.equal(qa.screenshots.length, 21, 'Expected 21 historical screenshots');
+  for (const shot of qa.screenshots) {
+    assertPortablePath(shot.file);
+    assert.equal(sha256(entries.get(prefix + shot.file)), shot.sha256, `Screenshot/QA hash mismatch: ${shot.file}`);
+  }
+  const result = {
+    filename, bytes: zip.length, sha256: sha256(zip), files: entries.size,
+    raw_posix_paths: 'PASS', local_central_names: 'PASS', crc: 'PASS',
+    manifest_and_stage_bytes: 'PASS', source_sha256: 'PASS (7 files)',
+    screenshot_sha256: 'PASS (21 files)', version: manifest.version,
+    package_version: version, source_version: SOURCE_VERSION, qa_version: SOURCE_VERSION,
+    technical_qa: manifest.technical_qa, review_state: manifest.review_state, published: manifest.published
+  };
+  if (writeReport) fs.writeFileSync(path.join(root, `release/ZIP-VERIFIED-v${version}.json`), JSON.stringify(result, null, 2) + '\n');
+  return result;
+}
+
+if (require.main === module) {
+  try {
+    assert.ok(process.argv.length <= 3, 'Usage: node tools/verify-product-zip.cjs [1.0.1]');
+    console.log(JSON.stringify(verifyProductZip({ version: process.argv[2] || DEFAULT_VERSION }), null, 2));
+  } catch (error) {
+    console.error(error.message);
+    process.exitCode = 1;
+  }
+}
+module.exports = { DEFAULT_VERSION, SOURCE_VERSION, assertVersion, stageFiles, verifyProductZip };

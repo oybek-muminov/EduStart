@@ -1,0 +1,19 @@
+{
+  "filename": "release/EduStart_UZ_RU_EN_v1.0.1.zip",
+  "bytes": 3645902,
+  "sha256": "9a7bfb81c52248301be0f5edc8ed5f854251a2b8ff5e57deb4e9b177c5812be1",
+  "files": 44,
+  "raw_posix_paths": "PASS",
+  "local_central_names": "PASS",
+  "crc": "PASS",
+  "manifest_and_stage_bytes": "PASS",
+  "source_sha256": "PASS (7 files)",
+  "screenshot_sha256": "PASS (21 files)",
+  "version": "1.0.1",
+  "package_version": "1.0.1",
+  "source_version": "1.0.0",
+  "qa_version": "1.0.0",
+  "technical_qa": "passed",
+  "review_state": "awaiting-independent-review",
+  "published": false
+}

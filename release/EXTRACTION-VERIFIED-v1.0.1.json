@@ -1,0 +1,41 @@
+{
+  "filename": "release/EduStart_UZ_RU_EN_v1.0.1.zip",
+  "version": "1.0.1",
+  "source_version": "1.0.0",
+  "qa_version": "1.0.0",
+  "bytes": 3645902,
+  "sha256": "9a7bfb81c52248301be0f5edc8ed5f854251a2b8ff5e57deb4e9b177c5812be1",
+  "files": 44,
+  "raw_backslash_entries": 0,
+  "crc": "PASS",
+  "standard_extraction": [
+    {
+      "method": "python zipfile.ZipFile.extractall",
+      "status": "PASS",
+      "files": 44
+    },
+    {
+      "method": "unzip -q ZIP -d TEMP",
+      "status": "PASS",
+      "files": 44
+    }
+  ],
+  "site_and_docs_directories": "PASS",
+  "extracted_manifest_hashes_and_source_bytes": "PASS",
+  "unchanged_site_sources": {
+    "app.js": "fd31b01f6292b202928d94f49b553a657fc9e3af812fa32dcb19325e1f802630",
+    "config.js": "749cbe3216334050cf1a1df3ac0f5562c53bc83b8ed6771807d967b3ffb2554f",
+    "en.html": "74adc72f20e73c3a53ccd0268ae7242439c2dfaf42434bda4f6ba2bfe8726a9c",
+    "favicon.svg": "953ffb880154918bd90a5fdbbae4ef8a78602aec7cd2c4f808dcdc05de40d62b",
+    "index.html": "a1b18fcf799bca4481331ea56760ac4c4b27573c75f96831ad56dd552b828e90",
+    "ru.html": "31a9e2694585eec1099a8e4e3225d03c5cdb46a9feabff25533c813f9e50f35a",
+    "styles.css": "a0aedc62074b905b04d45f0f4a30093cb6709a9a9b143e817c39e7146751f683"
+  },
+  "unchanged_qa_screenshots": 21,
+  "unchanged_license_and_cover": true,
+  "buyer_start_here": "PASS",
+  "previous_zip_backslash_entries": 44,
+  "browser_qa_rerun": false,
+  "review_state": "awaiting-independent-review",
+  "published": false
+}
