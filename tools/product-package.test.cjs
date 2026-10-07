@@ -135,6 +135,13 @@ test('package build preserves history, is idempotent, and requires explicit rebu
   const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'edustart-package-test-'));
   t.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
   for (const item of ['START-HERE.md', 'site', 'docs', 'seller']) fs.cpSync(path.join(root, item), path.join(fixture, item), { recursive: true });
+  // This builder tests the historical v1.0.1 package and its v1.0.0 browser QA.
+  // Keep its fixture pinned when the working site advances to a new version.
+  const snapshot = JSON.parse(fs.readFileSync(path.join(fixture, 'docs/SOURCES-v1.0.0.json'), 'utf8'));
+  for (const source of snapshot.files) {
+    assert.equal(sha256(Buffer.from(source.content)), source.sha256);
+    fs.writeFileSync(path.join(fixture, source.file), source.content);
+  }
   const historical = [
     'release/EduStart_UZ_RU_EN_v1.0.0.zip', 'release/MANIFEST-v1.0.0.json',
     'release/ZIP-VERIFIED-v1.0.0.json', 'docs/SOURCES-v1.0.0.json', 'docs/QA-v1.0.0.json'
@@ -173,5 +180,7 @@ test('package build preserves history, is idempotent, and requires explicit rebu
   fs.writeFileSync(path.join(fixture, 'release/stage/EduStart_UZ_RU_EN_v1.0.1/EXTRA.txt'), 'extra');
   assert.throws(() => verifyProductZip({ root: fixture }), /Unexpected stage files/);
   assert.throws(() => prepareProductPackage({ root: fixture, version: '1.0.0', rebuild: true }), /Historical v1.0.0/);
+  fs.appendFileSync(path.join(fixture, 'site/styles.css'), '\n');
+  assert.throws(() => prepareProductPackage({ root: fixture, rebuild: true }), /QA\/source mismatch: site\/styles.css/);
   for (const [file, hash] of before) assert.equal(sha256(fs.readFileSync(path.join(fixture, file))), hash, file);
 });
