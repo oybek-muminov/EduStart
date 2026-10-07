@@ -1,5 +1,62 @@
 # EduStart UZ/RU/EN — keyingi sessiyaga topshirish
 
+## 2026-10-07 — 05 paket tuzatishi, v1.0.1
+
+Foydalanuvchi Notion vazifalari va `oybek-muminov/EduStart` ni solishtirib,
+05-vazifani davom ettirishni so‘radi. Quyidagi pauza qaydi tarixiy.
+GitHub boshlang‘ich commit: `d580c3dfda95f098f0bdb359f302d215e878624e`.
+Ish alohida `codex/edustart-task05-package` branch/worktreeda bajarildi;
+asosiy ishchi papkadagi avvalgi automation o‘zgarishlari saqlandi.
+
+### Notion va GitHub farqi
+
+Notionning amaldagi holati: 01–04 Bajarildi; 05 Toʻsiq bor; 06 Tasdiq kutilmoqda;
+07 Rejada. 4-oktabrdagi mustaqil tekshiruv S3 readback to‘sig‘ini yechgan,
+7 sayt manbasi, oldingi Chrome QA va 21 screenshotni qabul qilgan.
+GitHub HANDOFF/DELIVERY eski readback/to‘siq holatini tarix sifatida saqlaydi.
+Haqiqiy qolgan 05 xatosi: v1.0.0 ZIPdagi barcha 44 raw entry yo‘li Windows
+backslash bilan. Eski verifier ularni normalizatsiya qilib xatoni yashirgan.
+START-HERE xaridorga ichki tekshiruv va nashr jarayonini aytgan.
+
+### Paket tuzatishi
+
+- v1.0.0 ZIP/stage/manifest/dalillar saqlandi; yangi paket v1.0.1.
+- ZIP builder dependency talab qilmaydi, POSIX yo‘llar va barqaror metadata bilan yig‘adi.
+- Verifier raw central/local yo‘llarni tekshiradi; backslash, noto‘g‘ri yo‘l,
+  takroriy nom, CRC/manifest yoki local/central nom tafovutini rad etadi.
+- START-HERE uch tilda xaridor uchun ochish, config, hosting va litsenziyani tushuntiradi.
+  Ichki nazorat/nashr seller/RELEASE-CHECKLIST.md ga ko‘chirildi.
+- UZ/RU/EN README va listing paket 1.0.1 / sayt+QA 1.0.0 farqini ko‘rsatadi.
+  Muqovadagi v1.0.0 — o‘zgarmagan haqiqiy sayt previewining versiyasi.
+- 7 sayt fayli, QA MD/JSON, 21 PNG, muqova va LICENSE.txt baytlari o‘zgarmagan.
+  Yangi brauzer QA bajarilgani da’vo qilinmaydi. Litsenziya sotuvchi loyihasi;
+  sotuvchi/support/refund bo‘yicha yangi shart o‘ylab topilmadi.
+
+### Tekshirish va topshirish
+
+```sh
+node tools/product-package.test.cjs
+node tools/prepare-product-package.cjs
+node tools/verify-product-zip.cjs
+python tools/verify-product-extraction.py
+```
+
+Paket: 44 fayl, 3 645 902 bayt. SHA256:
+`9a7bfb81c52248301be0f5edc8ed5f854251a2b8ff5e57deb4e9b177c5812be1`.
+Amaldagi tekshiruv hisoboti: `release/ZIP-VERIFIED-v1.0.1.json`.
+10 ta paket regressiya testi PASS; raw POSIX/local-central/CRC/manifest tekshiruvi PASS.
+Oddiy Python extractall va unzip dalili: `release/EXTRACTION-VERIFIED-v1.0.1.json`.
+Tarkib: `release/MANIFEST-v1.0.1.json`; sayt/dalil hashlar shu fayllarga bog‘langan.
+Tashqi topshirish mavjud GitHub/Notion connectorlari va sozlangan GitHub CLI orqali
+bajariladi. Tarmoq buyruqlari ruxsatli sandbox tarmoq rejimida bajariladi;
+CLI credential yoki global tarmoq himoyasi o‘zgartirilmadi.
+
+05 tuzatilgan ZIP va tekshiruv dalillari bilan Tasdiq kutilmoqda sifatida topshiriladi.
+06 listing/preview versiya mosligi qayd etiladi. Keyingi navbat: mustaqil yakuniy
+paket nazorati → Oybek 07 sotuvchi/support/refund/litsenziya → $19 Gumroad nashri.
+Sotuvga tayyorlik yoki mustaqil tasdiq ijrochi nomidan belgilanmaydi.
+Gumroad nashri va doimiy jadval yoqilmadi.
+
 ## Pauza — 2026-10-07 (Asia/Tashkent)
 
 Foydalanuvchi talabi bilan ish xavfsiz nuqtada pauza qilindi. Yangi vazifa

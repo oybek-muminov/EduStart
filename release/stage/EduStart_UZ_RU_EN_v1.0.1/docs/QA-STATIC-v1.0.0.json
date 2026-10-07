@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-04",
+  "executed_at_utc": "2026-10-04T09:05:26.729Z",
+  "version": "1.0.0",
+  "kind": "STATIC_AND_HTTP_ONLY",
+  "assets": [
+    {
+      "file": "index.html",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "a1b18fcf799bca4481331ea56760ac4c4b27573c75f96831ad56dd552b828e90"
+    },
+    {
+      "file": "ru.html",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "31a9e2694585eec1099a8e4e3225d03c5cdb46a9feabff25533c813f9e50f35a"
+    },
+    {
+      "file": "en.html",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "74adc72f20e73c3a53ccd0268ae7242439c2dfaf42434bda4f6ba2bfe8726a9c"
+    },
+    {
+      "file": "styles.css",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "a0aedc62074b905b04d45f0f4a30093cb6709a9a9b143e817c39e7146751f683"
+    },
+    {
+      "file": "app.js",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "fd31b01f6292b202928d94f49b553a657fc9e3af812fa32dcb19325e1f802630"
+    },
+    {
+      "file": "config.js",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "749cbe3216334050cf1a1df3ac0f5562c53bc83b8ed6771807d967b3ffb2554f"
+    },
+    {
+      "file": "favicon.svg",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "953ffb880154918bd90a5fdbbae4ef8a78602aec7cd2c4f808dcdc05de40d62b"
+    }
+  ],
+  "pages": [
+    {
+      "file": "index.html",
+      "lang": "uz",
+      "sections": 7,
+      "unique_ids": true,
+      "local_links_and_assets": "PASS",
+      "language_link": "PASS",
+      "demo_contact_markup": "PASS"
+    },
+    {
+      "file": "ru.html",
+      "lang": "ru",
+      "sections": 7,
+      "unique_ids": true,
+      "local_links_and_assets": "PASS",
+      "language_link": "PASS",
+      "demo_contact_markup": "PASS"
+    },
+    {
+      "file": "en.html",
+      "lang": "en",
+      "sections": 7,
+      "unique_ids": true,
+      "local_links_and_assets": "PASS",
+      "language_link": "PASS",
+      "demo_contact_markup": "PASS"
+    }
+  ],
+  "javascript_syntax": "PASS",
+  "shipped_config": "PASS: demo=true; contacts blank",
+  "browser_checks": "SEPARATE REAL-BROWSER REPORT: docs/QA-v1.0.0.json",
+  "requested_widths": [
+    375,
+    768,
+    1440
+  ],
+  "original_notion_widths": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "site_changes": "EN + three-language links + menu/dialog focus fixes",
+  "outbound_contacts": "NONE",
+  "release_status": "Technical checks only; independent review and seller approval remain separate"
+}

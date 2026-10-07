@@ -1,0 +1,2571 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-04",
+  "started_at": "2026-10-04T09:01:12.768Z",
+  "engine": "Actual installed Chrome via Puppeteer bundled with chrome-devtools-mcp 1.10.1",
+  "assets": {
+    "app.js": "fd31b01f6292b202928d94f49b553a657fc9e3af812fa32dcb19325e1f802630",
+    "config.js": "749cbe3216334050cf1a1df3ac0f5562c53bc83b8ed6771807d967b3ffb2554f",
+    "en.html": "74adc72f20e73c3a53ccd0268ae7242439c2dfaf42434bda4f6ba2bfe8726a9c",
+    "favicon.svg": "953ffb880154918bd90a5fdbbae4ef8a78602aec7cd2c4f808dcdc05de40d62b",
+    "index.html": "a1b18fcf799bca4481331ea56760ac4c4b27573c75f96831ad56dd552b828e90",
+    "ru.html": "31a9e2694585eec1099a8e4e3225d03c5cdb46a9feabff25533c813f9e50f35a",
+    "styles.css": "a0aedc62074b905b04d45f0f4a30093cb6709a9a9b143e817c39e7146751f683"
+  },
+  "matrix": [
+    {
+      "lang": "uz",
+      "width": 360,
+      "client_width": 360,
+      "scroll_width": 360,
+      "sections": [
+        {
+          "id": "home",
+          "width": 324,
+          "height": 1052.234375
+        },
+        {
+          "id": "courses",
+          "width": 324,
+          "height": 1133.1875
+        },
+        {
+          "id": "approach",
+          "width": 360,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 324,
+          "height": 614.78125
+        },
+        {
+          "id": "steps",
+          "width": 324,
+          "height": 773.8125
+        },
+        {
+          "id": "faq",
+          "width": 324,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 324,
+          "height": 626.828125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 360,
+        "scroll_width": 360
+      },
+      "screenshot": "docs/evidence-v1.0.0/uz-360.png"
+    },
+    {
+      "lang": "uz",
+      "width": 375,
+      "client_width": 375,
+      "scroll_width": 375,
+      "sections": [
+        {
+          "id": "home",
+          "width": 339,
+          "height": 1052.234375
+        },
+        {
+          "id": "courses",
+          "width": 339,
+          "height": 1098.6875
+        },
+        {
+          "id": "approach",
+          "width": 375,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 339,
+          "height": 589.1875
+        },
+        {
+          "id": "steps",
+          "width": 339,
+          "height": 773.8125
+        },
+        {
+          "id": "faq",
+          "width": 339,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 339,
+          "height": 626.828125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 375,
+        "scroll_width": 375
+      },
+      "screenshot": "docs/evidence-v1.0.0/uz-375.png"
+    },
+    {
+      "lang": "uz",
+      "width": 390,
+      "client_width": 390,
+      "scroll_width": 390,
+      "sections": [
+        {
+          "id": "home",
+          "width": 354,
+          "height": 1052.234375
+        },
+        {
+          "id": "courses",
+          "width": 354,
+          "height": 1098.6875
+        },
+        {
+          "id": "approach",
+          "width": 390,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 354,
+          "height": 554.6875
+        },
+        {
+          "id": "steps",
+          "width": 354,
+          "height": 739.3125
+        },
+        {
+          "id": "faq",
+          "width": 354,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 354,
+          "height": 626.828125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 390,
+        "scroll_width": 390
+      },
+      "screenshot": "docs/evidence-v1.0.0/uz-390.png"
+    },
+    {
+      "lang": "uz",
+      "width": 768,
+      "client_width": 768,
+      "scroll_width": 768,
+      "sections": [
+        {
+          "id": "home",
+          "width": 704,
+          "height": 619.34375
+        },
+        {
+          "id": "courses",
+          "width": 704,
+          "height": 594.75
+        },
+        {
+          "id": "approach",
+          "width": 768,
+          "height": 501.5625
+        },
+        {
+          "id": "team",
+          "width": 704,
+          "height": 594.515625
+        },
+        {
+          "id": "steps",
+          "width": 704,
+          "height": 460.421875
+        },
+        {
+          "id": "faq",
+          "width": 704,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 704,
+          "height": 424.0625
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 768,
+        "scroll_width": 768
+      },
+      "screenshot": "docs/evidence-v1.0.0/uz-768.png"
+    },
+    {
+      "lang": "uz",
+      "width": 1440,
+      "client_width": 1440,
+      "scroll_width": 1440,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1180,
+          "height": 640.4375
+        },
+        {
+          "id": "courses",
+          "width": 1180,
+          "height": 537.3125
+        },
+        {
+          "id": "approach",
+          "width": 1440,
+          "height": 466.515625
+        },
+        {
+          "id": "team",
+          "width": 1180,
+          "height": 411
+        },
+        {
+          "id": "steps",
+          "width": 1180,
+          "height": 454.125
+        },
+        {
+          "id": "faq",
+          "width": 1180,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 1180,
+          "height": 449.953125
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 1440,
+        "scroll_width": 1440
+      },
+      "screenshot": "docs/evidence-v1.0.0/uz-1440.png"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "client_width": 360,
+      "scroll_width": 360,
+      "sections": [
+        {
+          "id": "home",
+          "width": 324,
+          "height": 1158.046875
+        },
+        {
+          "id": "courses",
+          "width": 324,
+          "height": 1182.734375
+        },
+        {
+          "id": "approach",
+          "width": 360,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 324,
+          "height": 658.515625
+        },
+        {
+          "id": "steps",
+          "width": 324,
+          "height": 796.203125
+        },
+        {
+          "id": "faq",
+          "width": 324,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 324,
+          "height": 592.328125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 360,
+        "scroll_width": 360
+      },
+      "screenshot": "docs/evidence-v1.0.0/ru-360.png"
+    },
+    {
+      "lang": "ru",
+      "width": 375,
+      "client_width": 375,
+      "scroll_width": 375,
+      "sections": [
+        {
+          "id": "home",
+          "width": 339,
+          "height": 1105.140625
+        },
+        {
+          "id": "courses",
+          "width": 339,
+          "height": 1153.984375
+        },
+        {
+          "id": "approach",
+          "width": 375,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 339,
+          "height": 658.515625
+        },
+        {
+          "id": "steps",
+          "width": 339,
+          "height": 796.203125
+        },
+        {
+          "id": "faq",
+          "width": 339,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 339,
+          "height": 592.328125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 375,
+        "scroll_width": 375
+      },
+      "screenshot": "docs/evidence-v1.0.0/ru-375.png"
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "client_width": 390,
+      "scroll_width": 390,
+      "sections": [
+        {
+          "id": "home",
+          "width": 354,
+          "height": 1105.140625
+        },
+        {
+          "id": "courses",
+          "width": 354,
+          "height": 1153.984375
+        },
+        {
+          "id": "approach",
+          "width": 390,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 354,
+          "height": 614.78125
+        },
+        {
+          "id": "steps",
+          "width": 354,
+          "height": 796.203125
+        },
+        {
+          "id": "faq",
+          "width": 354,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 354,
+          "height": 557.828125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 390,
+        "scroll_width": 390
+      },
+      "screenshot": "docs/evidence-v1.0.0/ru-390.png"
+    },
+    {
+      "lang": "ru",
+      "width": 768,
+      "client_width": 768,
+      "scroll_width": 768,
+      "sections": [
+        {
+          "id": "home",
+          "width": 704,
+          "height": 619.34375
+        },
+        {
+          "id": "courses",
+          "width": 704,
+          "height": 651.640625
+        },
+        {
+          "id": "approach",
+          "width": 768,
+          "height": 523.953125
+        },
+        {
+          "id": "team",
+          "width": 704,
+          "height": 594.515625
+        },
+        {
+          "id": "steps",
+          "width": 704,
+          "height": 460.421875
+        },
+        {
+          "id": "faq",
+          "width": 704,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 704,
+          "height": 404.765625
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 768,
+        "scroll_width": 768
+      },
+      "screenshot": "docs/evidence-v1.0.0/ru-768.png"
+    },
+    {
+      "lang": "ru",
+      "width": 1440,
+      "client_width": 1440,
+      "scroll_width": 1440,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1180,
+          "height": 640.4375
+        },
+        {
+          "id": "courses",
+          "width": 1180,
+          "height": 537.3125
+        },
+        {
+          "id": "approach",
+          "width": 1440,
+          "height": 517.109375
+        },
+        {
+          "id": "team",
+          "width": 1180,
+          "height": 411
+        },
+        {
+          "id": "steps",
+          "width": 1180,
+          "height": 504.71875
+        },
+        {
+          "id": "faq",
+          "width": 1180,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 1180,
+          "height": 404.765625
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 1440,
+        "scroll_width": 1440
+      },
+      "screenshot": "docs/evidence-v1.0.0/ru-1440.png"
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "client_width": 360,
+      "scroll_width": 360,
+      "sections": [
+        {
+          "id": "home",
+          "width": 324,
+          "height": 940.9375
+        },
+        {
+          "id": "courses",
+          "width": 324,
+          "height": 1153.984375
+        },
+        {
+          "id": "approach",
+          "width": 360,
+          "height": 799.984375
+        },
+        {
+          "id": "team",
+          "width": 324,
+          "height": 554.6875
+        },
+        {
+          "id": "steps",
+          "width": 324,
+          "height": 796.203125
+        },
+        {
+          "id": "faq",
+          "width": 324,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 324,
+          "height": 592.328125
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 360,
+        "scroll_width": 360
+      },
+      "screenshot": "docs/evidence-v1.0.0/en-360.png"
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "client_width": 375,
+      "scroll_width": 375,
+      "sections": [
+        {
+          "id": "home",
+          "width": 339,
+          "height": 940.9375
+        },
+        {
+          "id": "courses",
+          "width": 339,
+          "height": 1133.1875
+        },
+        {
+          "id": "approach",
+          "width": 375,
+          "height": 777.59375
+        },
+        {
+          "id": "team",
+          "width": 339,
+          "height": 554.6875
+        },
+        {
+          "id": "steps",
+          "width": 339,
+          "height": 739.3125
+        },
+        {
+          "id": "faq",
+          "width": 339,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 339,
+          "height": 569.9375
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 375,
+        "scroll_width": 375
+      },
+      "screenshot": "docs/evidence-v1.0.0/en-375.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "client_width": 390,
+      "scroll_width": 390,
+      "sections": [
+        {
+          "id": "home",
+          "width": 354,
+          "height": 940.9375
+        },
+        {
+          "id": "courses",
+          "width": 354,
+          "height": 1133.1875
+        },
+        {
+          "id": "approach",
+          "width": 390,
+          "height": 777.59375
+        },
+        {
+          "id": "team",
+          "width": 354,
+          "height": 554.6875
+        },
+        {
+          "id": "steps",
+          "width": 354,
+          "height": 739.3125
+        },
+        {
+          "id": "faq",
+          "width": 354,
+          "height": 486.875
+        },
+        {
+          "id": "contact",
+          "width": 354,
+          "height": 569.9375
+        }
+      ],
+      "mobile": true,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "PASS: Enter/open, toggle/close, Escape/focus-return, link-close/no-hidden-focus",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 390,
+        "scroll_width": 390
+      },
+      "screenshot": "docs/evidence-v1.0.0/en-390.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "client_width": 768,
+      "scroll_width": 768,
+      "sections": [
+        {
+          "id": "home",
+          "width": 704,
+          "height": 601.75
+        },
+        {
+          "id": "courses",
+          "width": 704,
+          "height": 629.25
+        },
+        {
+          "id": "approach",
+          "width": 768,
+          "height": 479.171875
+        },
+        {
+          "id": "team",
+          "width": 704,
+          "height": 594.515625
+        },
+        {
+          "id": "steps",
+          "width": 704,
+          "height": 460.421875
+        },
+        {
+          "id": "faq",
+          "width": 704,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 704,
+          "height": 404.765625
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 768,
+        "scroll_width": 768
+      },
+      "screenshot": "docs/evidence-v1.0.0/en-768.png"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "client_width": 1440,
+      "scroll_width": 1440,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1180,
+          "height": 622.84375
+        },
+        {
+          "id": "courses",
+          "width": 1180,
+          "height": 537.3125
+        },
+        {
+          "id": "approach",
+          "width": 1440,
+          "height": 466.515625
+        },
+        {
+          "id": "team",
+          "width": 1180,
+          "height": 411
+        },
+        {
+          "id": "steps",
+          "width": 1180,
+          "height": 454.125
+        },
+        {
+          "id": "faq",
+          "width": 1180,
+          "height": 410.375
+        },
+        {
+          "id": "contact",
+          "width": 1180,
+          "height": 404.765625
+        }
+      ],
+      "mobile": false,
+      "config": {
+        "brand": "EduStart",
+        "demo": true,
+        "telegram": "",
+        "phone": "",
+        "map": "",
+        "address": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        },
+        "hours": {
+          "uz": "",
+          "ru": "",
+          "en": ""
+        }
+      },
+      "menu": "desktop-visible",
+      "faq": [
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close",
+        "PASS: Enter/open, Space/close"
+      ],
+      "demo": [
+        {
+          "kind": "telegram",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "phone",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        },
+        {
+          "kind": "map",
+          "status": "PASS: open, Tab/Shift+Tab containment, close, focus-return; no external navigation"
+        }
+      ],
+      "language_switch": "PASS: both other languages, actual keyboard navigation",
+      "console_errors": [],
+      "failed_requests": [],
+      "http_errors": [],
+      "outbound_requests": [],
+      "final_dimensions": {
+        "client_width": 1440,
+        "scroll_width": 1440
+      },
+      "screenshot": "docs/evidence-v1.0.0/en-1440.png"
+    }
+  ],
+  "language_transitions": [
+    {
+      "width": 360,
+      "from": "uz",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 360,
+      "from": "uz",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "uz",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "uz",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "uz",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "uz",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "uz",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "uz",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "uz",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "uz",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 360,
+      "from": "ru",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 360,
+      "from": "ru",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "ru",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "ru",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "ru",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "ru",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "ru",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "ru",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "ru",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "ru",
+      "to": "en",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 360,
+      "from": "en",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 360,
+      "from": "en",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "en",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 375,
+      "from": "en",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "en",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 390,
+      "from": "en",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "en",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 768,
+      "from": "en",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "en",
+      "to": "uz",
+      "status": "PASS: keyboard Enter navigation"
+    },
+    {
+      "width": 1440,
+      "from": "en",
+      "to": "ru",
+      "status": "PASS: keyboard Enter navigation"
+    }
+  ],
+  "configured_contacts": [
+    {
+      "lang": "uz",
+      "width": 360,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 360,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 375,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 375,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 390,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 390,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 768,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 768,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 1440,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "uz",
+      "width": 1440,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address uz",
+      "hours": "QA hours uz",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 375,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 375,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 768,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 768,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1440,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "width": 1440,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address ru",
+      "hours": "QA hours ru",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "valid": true,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "https://t.me/edustart_qa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "kind": "phone",
+          "href": "tel:+998900000000",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "https://example.com/map",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "valid": false,
+      "status": "PASS: href/target/rel, localized address/hours, demo banners hidden",
+      "hidden": true,
+      "address": "QA address en",
+      "hours": "QA hours en",
+      "links": [
+        {
+          "kind": "telegram",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "phone",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "kind": "map",
+          "href": "#contact",
+          "target": "",
+          "rel": ""
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "docs/evidence-v1.0.0/uz-360.png",
+      "sha256": "98a49baf35271f89147a593911566af2917e4ab8d9b3c437c5932e39476e031f",
+      "bytes": 203542
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-375.png",
+      "sha256": "4c22cdfbd07ff3bca97ff97a85f47d30d3cc500bc9ae5d51dab85566705afea8",
+      "bytes": 203564
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-menu-375.png",
+      "sha256": "f800bced9a1f914e14205446fc1a88b80a0ad7c46b0967fe6661dca50bc28a57",
+      "bytes": 35830
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-dialog-375.png",
+      "sha256": "82fd87956e40ac62c1028b9678a1fa93bd217cd33cb66be13642700ab4f608bb",
+      "bytes": 39512
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-390.png",
+      "sha256": "b6e8e918f5742504d30dfe0f866f2b4349155cffa2c770538609d4cec02d2883",
+      "bytes": 203156
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-768.png",
+      "sha256": "acd0ffeb3745daa5802ead58b8e4e1ddc8abc8a8c1df3d5deef355ca03af9caa",
+      "bytes": 208840
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-1440.png",
+      "sha256": "2bcf2d3072f6e34d7418fdd8f9fdab19f6777aa55ca27f586037104383abb6bc",
+      "bytes": 236988
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-360.png",
+      "sha256": "56ed1b5782a31dbf791e693af011b559253c8819b8985c74ffe20188dd12e5e7",
+      "bytes": 204568
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-375.png",
+      "sha256": "e231d86f9ba8abd09acb70f7a3909da4e158c6a835f9d951621d94094bf49578",
+      "bytes": 205159
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-menu-375.png",
+      "sha256": "8f94aff91e1acbfeec63f71af0b1e5c4931a1e4dbad6052bf42fe1c69183fdba",
+      "bytes": 35140
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-dialog-375.png",
+      "sha256": "ca6743b3ccdaf12b9ba4a9d377ccfa56c6e295bb6bd980546d69a12e6d46b749",
+      "bytes": 36952
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-390.png",
+      "sha256": "3f344329ecb87d2d260e0347ff218af848fbc91fa648eb53738f39609657ca65",
+      "bytes": 204250
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-768.png",
+      "sha256": "c7563dd5745c8052060f542ca8b622feef5adb01599dd4a542d2e829fa19058f",
+      "bytes": 208042
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-1440.png",
+      "sha256": "d3f74810a0410c8c08542b61b8806eb9d06b157ed4a3fd3a3ab1e6f83a3172fa",
+      "bytes": 239082
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-360.png",
+      "sha256": "d2d2ddda216a4448240912c5fd764c922e806cb1b1fb008c6a592bfc27afa192",
+      "bytes": 199364
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-375.png",
+      "sha256": "9d4e6c25bb1f9e8f4f74fb6c53be821e8b07e2fb617b2336978fb3d0b3326385",
+      "bytes": 199131
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-menu-375.png",
+      "sha256": "aab57f48d222cd9a01159df9844fa0c0f088a978f5d92b1fb7b81c0e4c7faf6c",
+      "bytes": 38755
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-dialog-375.png",
+      "sha256": "7aa44846f323dd360959e19e2a1ec75cd43a86e13bec2370a245b4ac5ab00170",
+      "bytes": 40249
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-390.png",
+      "sha256": "b219fb3f84ad527eef1573137880f4f8fe82ea234f402ede83f35cc1fb5acef3",
+      "bytes": 199368
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-768.png",
+      "sha256": "b9c505a1c353efc7b3ca7dfc44a27bb1e7b3cbe7669d0a560aa325214ef5a35c",
+      "bytes": 205078
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-1440.png",
+      "sha256": "bbca6620d96e238aba56047fd7dcc81aace81a8e3fe31d2b8e6b99c48256e651",
+      "bytes": 230013
+    }
+  ],
+  "errors": [],
+  "review_state": "awaiting-independent-review",
+  "approval_by": null,
+  "published": false,
+  "browser": "Chrome/154.0.8037.93",
+  "status": "passed",
+  "finished_at": "2026-10-04T09:02:58.001Z",
+  "limitations": [
+    "One installed Chrome engine only; Firefox/Safari and real touch hardware not tested.",
+    "Visual regression has no previously approved baseline; independent visual acceptance remains pending.",
+    "No screen-reader certification or performance/CWV claim.",
+    "Seller identity/support/refund decisions remain with Oybek."
+  ]
+}

@@ -5,37 +5,33 @@ const root=path.resolve(__dirname,'..');
 const qa=JSON.parse(fs.readFileSync(path.join(root,'docs/QA-v1.0.0.json'),'utf8'));
 if(qa.status!=='passed'||qa.matrix.length!==15)throw Error('Full browser QA gate has not passed');
 const docs={
- 'START-HERE.md':`# EduStart UZ/RU/EN — v1.0.0
-2026-10-04. Uch tilli, 7 bo‘limli HTML/CSS/JS shablon.
+ 'START-HERE.md':`# EduStart UZ/RU/EN — v1.0.1
 
-Oching: site/index.html (UZ), site/ru.html (RU), site/en.html (EN).
-Yo‘riqnomalar: docs/README_UZ.md, docs/README_RU.md, docs/README_EN.md.
-Build, npm yoki backend kerak emas; site/ ichidagi barcha 7 fayl birgalikda tarqatiladi.
-Sukutdagi config: demo=true, kontaktlar bo‘sh. Demo hech kimga murojaat yubormaydi.
+## O‘zbekcha — boshlash
+1. ZIPni to‘liq ajrating. \`EduStart_UZ_RU_EN_v1.0.1/\` ichidagi \`site/index.html\` faylini brauzerda oching. RU uchun \`site/ru.html\`, EN uchun \`site/en.html\`; har sahifada UZ/RU/EN tanlovi bor.
+2. Sozlash uchun \`docs/README_UZ.md\` ni o‘qing. \`site/config.js\` ichiga markaz nomi, kontaktlar, uch tildagi manzil va ish vaqtini kiriting. Uchala HTML faylida namuna matnlarni o‘zingiznikiga almashtiring; so‘ng \`demo: false\` qo‘ying.
+3. Hostingga \`site/\` ichidagi barcha 7 faylni bir katalogga yuklang. Build yoki npm kerak emas. Litsenziya: \`docs/LICENSE.txt\`.
 
-Chrome brauzer QA: uch til × 360/375/390/768/1440 CSS px; 15 qator,
-30 haqiqiy til o‘tishi va 30 sozlangan/yaroqsiz kontakt sinovi o‘tdi.
-Hisobot: docs/QA-v1.0.0.md va .json; haqiqiy PNGlar docs/evidence-v1.0.0/ ichida.
-Bu bitta Chrome dvigateli sinovi; Firefox/Safari yoki ekran o‘quvchi sertifikati emas.
+## Русский — начало работы
+1. Полностью распакуйте ZIP. В папке \`EduStart_UZ_RU_EN_v1.0.1/\` откройте \`site/ru.html\` в браузере. Узбекская версия — \`site/index.html\`, английская — \`site/en.html\`; переключатель языков есть на каждой странице.
+2. Следуйте \`docs/README_RU.md\`. Заполните название, контакты, адрес и часы работы на трёх языках в \`site/config.js\`. Замените примеры во всех трёх HTML-файлах, затем установите \`demo: false\`.
+3. Загрузите все 7 файлов из \`site/\` в один каталог хостинга. Сборка и npm не требуются. Лицензия: \`docs/LICENSE.txt\`.
 
-Narx: $19, bitta biznes uchun. Mahalliy moslashtirish: 690 000 so‘m,
-60 daqiqagacha, haftasiga ko‘pi bilan bitta. Domen/hosting alohida.
-
-Nashrdan oldin: mustaqil tekshiruvchi manbalar, QA va rasmlarni ko‘rib chiqadi.
-Oybek sotuvchi shaxsi, support aloqa manzili va refund/support shartlarini belgilaydi,
-docs/LICENSE.txt va sotuv tavsifini tasdiqlaydi; keyin Gumroadga o‘zi yuklaydi.
-Nashr qilinmagan. Jadval yoqilmagan. seller/RELEASE-CHECKLIST.md ga qarang.
+## English — get started
+1. Extract the entire ZIP. Open \`site/en.html\` inside \`EduStart_UZ_RU_EN_v1.0.1/\` in your browser. Uzbek: \`site/index.html\`; Russian: \`site/ru.html\`. Every page has UZ/RU/EN links.
+2. Follow \`docs/README_EN.md\`. Set your center name, contacts, address and opening hours in all three languages in \`site/config.js\`. Replace sample content in all three HTML files, then set \`demo: false\`.
+3. Upload all 7 files from \`site/\` together to one hosting directory. No build or npm is required. License: \`docs/LICENSE.txt\`.
 `,
  'docs/README_UZ.md':`# EduStart UZ/RU/EN — sozlash
-Versiya 1.0.0, 2026-10-04. Bir sahifali responsive shablon, har tilda ayni 7 bo‘lim.
+Paket versiyasi 1.0.1, 2026-10-07. Sayt va brauzer QA versiyasi 1.0.0. Bir sahifali responsive shablon, har tilda ayni 7 bo‘lim.
 
 ## Boshlash
-ZIPni oching va site/index.html ni brauzerda oching. UZ/RU/EN havolalari uchala
+ZIPni to‘liq ajrating. EduStart_UZ_RU_EN_v1.0.1/ ichidagi site/index.html ni brauzerda oching. UZ/RU/EN havolalari uchala
 sahifada bor. HTML, CSS va JSni oddiy matn muharririda tahrirlash mumkin.
 docs/COPY_UZ_RU_EN.json matnlar ma’lumotnomasi; HTML uni avtomatik o‘qimaydi.
 
 ## Biznesga moslash
-1. site/config.js: brand, telegram (@siz username), phone (xalqaro + format,
+1. site/config.js: brand, telegram (@ belgisiz username), phone (xalqaro + format,
 bo‘shliqsiz), map (to‘liq HTTPS URL), address.uz/ru/en va hours.uz/ru/en.
 Bu fayl ommaviy: parol, API key yoki maxfiy ma’lumot kiritmang.
 2. Uchala HTMLdagi kurs, ustoz, jadval, FAQ, title va meta descriptionni bir xil
@@ -60,9 +56,9 @@ konfiguratsiyasi uchun JS kerak. Surat/shrift/kutubxona tashqaridan yuklanmaydi.
 Litsenziya bitta biznes; ikkinchi biznesga alohida xarid kerak.
 `,
  'docs/README_RU.md':`# EduStart UZ/RU/EN — настройка
-Версия 1.0.0, 4 октября 2026. Семь одинаковых разделов на трёх языках.
+Версия пакета 1.0.1, 7 октября 2026. Версия сайта и браузерного QA — 1.0.0. Семь одинаковых разделов на трёх языках.
 
-1. Распакуйте ZIP, откройте site/index.html. Переключатели UZ/RU/EN доступны
+1. Полностью распакуйте ZIP, откройте site/index.html внутри EduStart_UZ_RU_EN_v1.0.1/. Переключатели UZ/RU/EN доступны
 на каждой странице. Сборка, npm и серверная часть не требуются.
 2. В site/config.js укажите brand, telegram (имя без @), phone (международный
 номер с +, без пробелов), map (полная HTTPS-ссылка), address.uz/ru/en и hours.uz/ru/en.
@@ -86,9 +82,10 @@ Firefox/Safari и программы чтения с экрана не серт�
 Для настройки контактных ссылок нужен JavaScript. Одна покупка — один бизнес.
 `,
  'docs/README_EN.md':`# EduStart UZ/RU/EN — setup
-Version 1.0.0, 4 October 2026. Seven matching sections in Uzbek, Russian and English.
+Package version 1.0.1, 7 October 2026. Site and browser QA version: 1.0.0. Seven matching sections in Uzbek, Russian and English.
 
-1. Extract the ZIP and open site/index.html, site/ru.html or site/en.html.
+1. Extract the entire ZIP and open site/index.html, site/ru.html or site/en.html
+inside EduStart_UZ_RU_EN_v1.0.1/.
 No build, npm, framework or backend is required. Use the UZ/RU/EN links on each page.
 2. Edit site/config.js: brand, telegram (username without @), phone (international
 number starting with +, no spaces), map (full HTTPS URL), address.uz/ru/en and
@@ -111,7 +108,8 @@ No CRM, payments, stored enquiry forms, analytics, installation or ongoing
 maintenance is included. Contact configuration requires JavaScript. One purchase
 licenses one business website, including one client business; see LICENSE.txt.
 `,
- 'seller/GUMROAD-LISTING.md':`# Gumroad listing — EduStart UZ/RU/EN v1.0.0
+ 'seller/GUMROAD-LISTING.md':`# Gumroad listing — EduStart UZ/RU/EN v1.0.1
+Paket: EduStart_UZ_RU_EN_v1.0.1.zip. Sayt, brauzer QA va previewlar: v1.0.0; sayt va rasmlar baytlari o‘zgarmagan.
 Holat: texnik materiallar ko‘rib chiqishga tayyor. Mustaqil tekshiruv va Oybekning
 sotuvchi/support/refund qarori kutiladi. Hali nashr qilinmagan.
 
@@ -168,17 +166,26 @@ Sotuvchi nomi va support aloqa manzili; support hajmi/muddati va refund shartlar
 Ular bu paketda o‘ylab topilmagan. RELEASE-CHECKLIST.md ni bajaring.
 `,
  'seller/RELEASE-CHECKLIST.md':`# Oybek uchun nashr — 10–15 daqiqa
-1. Mustaqil nazoratchi 02–06 vazifalardagi fayllar, QA, litsenziya va previewlarni
-tekshirganini tasdiqlang. Ijrochi o‘z ishini yakuniy tasdiqlamaydi.
-2. LICENSE.txt ni ko‘rib chiqing: bir biznes, uch til. Sotuvchi shaxsi, support
-aloqa manzili/hajmi va refund shartlarini listingda belgilang. Ularni o‘ylab topmadik.
-3. Paket SHA256 va tarkib ro‘yxatini tekshiring. ZIPdagi demo kontaktlar bo‘sh
-ekanini va uch til mavjudligini tekshiring.
-4. Gumroad mahsulotiga title/description, $19, ZIP, cover.png va haqiqiy previewlarni
-yuklang. Xaridor ko‘radigan fayl va matnni oxirgi marta tekshiring.
-5. Faqat o‘z qaroringizdan keyin nashr qiling. Haqiqiy mahsulot URLini Notionga
-yozing; savdo va trafik ko‘rsatkichlarini faqat ular amalda kelganda qayd eting.
-Bu fayl Gumroadda nashr qilmaydi va ijtimoiy tarmoqqa xabar yubormaydi.
+
+## Paket v1.0.1 — nashrdan oldin
+
+Bu bo‘lim sotuvchi va tekshiruvchi uchun. Quyidagi release/ yo‘llari GitHub loyihasidagi topshirish fayllariga tegishli; ajratilgan ZIP ichidagi tarkib ro‘yxati MANIFEST.json. Xaridor START-HERE orqali saytni ochadi va sozlaydi.
+
+- Amaldagi paket: \`release/EduStart_UZ_RU_EN_v1.0.1.zip\`; tarkib: \`release/MANIFEST-v1.0.1.json\`; SHA256/CRC: \`release/ZIP-VERIFIED-v1.0.1.json\`.
+- Standart ajratish dalili: \`release/EXTRACTION-VERIFIED-v1.0.1.json\`. ZIP ichidagi yo‘llar \`/\` bilan; \`site/\` va \`docs/\` oddiy ajratishda ochiladi.
+- Paket v1.0.1; sayt va brauzer QA v1.0.0. 7 sayt manbasi va 21 screenshot o‘zgarmagan. Muqova va previewlar shu manbalarga mos.
+- Mustaqil tekshiruvchi tuzatilgan ZIP, uch tilli yo‘riqnoma va litsenziyani ko‘rib chiqadi. Codex topshirishi yakuniy sotuv tasdig‘i emas.
+- Sotuvchi shaxsi, support aloqa manzili/hajmi/muddati va refund shartlarini Oybek 07-vazifada belgilaydi. \`docs/LICENSE.txt\` loyihasi v1.0.0; mazmuni bu paket tuzatishida o‘zgarmagan va nashrdan oldin tasdiqlanadi.
+
+## Gumroadga yuklash
+
+1. Mustaqil nazoratchi 02–06 vazifalardagi fayllar, QA, litsenziya va previewlarni tekshirganini tasdiqlang.
+2. LICENSE.txt ni ko‘rib chiqing: bir biznes, uch til. Sotuvchi/support/refund ma’lumotlarini listingga kiriting.
+3. v1.0.1 ZIP SHA256 va tarkibini tekshiring. Demo kontaktlar bo‘sh va uch til mavjud bo‘lsin.
+4. Gumroad mahsulotiga title/description, $19, v1.0.1 ZIP, cover.png va haqiqiy previewlarni yuklang. Xaridor ko‘radigan fayl va matnni oxirgi marta tekshiring.
+5. O‘z qaroringizdan keyin nashr qiling. Haqiqiy mahsulot URLini Notionga yozing; savdo va trafikni amaldagi natija bo‘yicha qayd eting.
+
+Nashr va jadval holati ichki topshirish hisobotida qayd etiladi. Bu checklistning o‘zi Gumroadda nashr qilmaydi.
 `
 };
 for(const [name,text]of Object.entries(docs))fs.writeFileSync(path.join(root,name),text);
