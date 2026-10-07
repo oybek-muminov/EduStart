@@ -1,0 +1,18 @@
+{
+  "type":"object",
+  "properties":{
+    "status":{"type":"string","enum":["passed","blocked"]},
+    "blocker":{"type":["string","null"]},
+    "task_id":{"type":"string"},
+    "version":{"type":"string"},
+    "file_upload_id":{"type":["string","null"]},
+    "task_url":{"type":["string","null"]},
+    "artifact_sha256":{"type":"string"},
+    "readback_verified":{"type":"boolean"},
+    "evidence_files":{"type":"array","items":{"type":"object","properties":{
+      "name":{"type":"string"},"file_upload_id":{"type":"string"},"sha256":{"type":"string"},"readback_verified":{"type":"boolean"}
+    },"required":["name","file_upload_id","sha256","readback_verified"],"additionalProperties":false}}
+  },
+  "required":["status","blocker","task_id","version","file_upload_id","task_url","artifact_sha256","readback_verified","evidence_files"],
+  "additionalProperties":false
+}

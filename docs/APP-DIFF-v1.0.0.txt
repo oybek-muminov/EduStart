@@ -1,0 +1,33 @@
+diff --git "a/D:\\EduStart_UZ_RU_v0.1.0_review\\EduStart_UZ_RU\\.automation\\app-before-product.js" "b/D:\\EduStart_UZ_RU_v0.1.0_review\\EduStart_UZ_RU\\site\\app.js"
+index a8a7609..01b2da9 100644
+--- "a/D:\\EduStart_UZ_RU_v0.1.0_review\\EduStart_UZ_RU\\.automation\\app-before-product.js"
++++ "b/D:\\EduStart_UZ_RU_v0.1.0_review\\EduStart_UZ_RU\\site\\app.js"
+@@ -3,7 +3,12 @@ const config = window.EDUSTART || {};
+ const lang = document.documentElement.lang;
+ const menu = document.querySelector('.menu-toggle');
+ const nav = document.querySelector('#navigation');
+-function closeMenu() { menu.setAttribute('aria-expanded', 'false'); nav.classList.remove('open'); }
++function closeMenu() {
++  const returnFocus = nav.contains(document.activeElement) && getComputedStyle(menu).display !== 'none';
++  menu.setAttribute('aria-expanded', 'false');
++  nav.classList.remove('open');
++  if (returnFocus) menu.focus();
++}
+ menu.addEventListener('click', () => { const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', String(open)); nav.classList.toggle('open', open); });
+ nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+@@ -11,6 +16,14 @@ if (config.brand) document.querySelectorAll('[data-brand]').forEach(el => el.tex
+ for (const key of ['address', 'hours']) if (config[key]?.[lang]) document.querySelectorAll(`[data-${key}]`).forEach(el => el.textContent = config[key][lang]);
+ if (config.demo === false) document.querySelectorAll('[data-demo]').forEach(el => el.hidden = true);
+ const dialog = document.querySelector('dialog');
++dialog.addEventListener('keydown', e => {
++  if (e.key !== 'Tab') return;
++  const items = [...dialog.querySelectorAll('a[href], button, input, select, textarea, [tabindex="0"]')].filter(el => !el.disabled && el.getClientRects().length);
++  const first = items[0], last = items[items.length - 1];
++  if (!first) { e.preventDefault(); return; }
++  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
++  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
++});
+ document.querySelector('[data-close]').addEventListener('click', () => dialog.close());
+ function targetFor(kind) {
+   if (kind === 'telegram' && /^[a-zA-Z][a-zA-Z0-9_]{4,31}$/.test(config.telegram || '')) return `https://t.me/${config.telegram}`;

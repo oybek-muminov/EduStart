@@ -1,0 +1,227 @@
+{
+  "product": "EduStart UZ/RU/EN",
+  "version": "1.0.0",
+  "price_usd": 19,
+  "license": "one business, all three languages",
+  "technical_qa": "passed",
+  "review_state": "awaiting-independent-review",
+  "seller_terms": "Oybek confirms identity/support/refund before publication",
+  "published": false,
+  "files": [
+    {
+      "file": "START-HERE.md",
+      "bytes": 1191,
+      "sha256": "bd9d7bdb230301751f80b2b3a09c74c8135832d7b93833fee0b9c1d008550050"
+    },
+    {
+      "file": "site/app.js",
+      "bytes": 2582,
+      "sha256": "fd31b01f6292b202928d94f49b553a657fc9e3af812fa32dcb19325e1f802630"
+    },
+    {
+      "file": "site/config.js",
+      "bytes": 451,
+      "sha256": "749cbe3216334050cf1a1df3ac0f5562c53bc83b8ed6771807d967b3ffb2554f"
+    },
+    {
+      "file": "site/en.html",
+      "bytes": 8533,
+      "sha256": "74adc72f20e73c3a53ccd0268ae7242439c2dfaf42434bda4f6ba2bfe8726a9c"
+    },
+    {
+      "file": "site/favicon.svg",
+      "bytes": 322,
+      "sha256": "953ffb880154918bd90a5fdbbae4ef8a78602aec7cd2c4f808dcdc05de40d62b"
+    },
+    {
+      "file": "site/index.html",
+      "bytes": 8622,
+      "sha256": "a1b18fcf799bca4481331ea56760ac4c4b27573c75f96831ad56dd552b828e90"
+    },
+    {
+      "file": "site/ru.html",
+      "bytes": 10983,
+      "sha256": "31a9e2694585eec1099a8e4e3225d03c5cdb46a9feabff25533c813f9e50f35a"
+    },
+    {
+      "file": "site/styles.css",
+      "bytes": 9502,
+      "sha256": "a0aedc62074b905b04d45f0f4a30093cb6709a9a9b143e817c39e7146751f683"
+    },
+    {
+      "file": "docs/COPY_EN.json",
+      "bytes": 4005,
+      "sha256": "32fb7a41789ff661e356d3effe2159c4f7ef9576fb69e380234728624d3c9a21"
+    },
+    {
+      "file": "docs/COPY_UZ_RU_EN.json",
+      "bytes": 16133,
+      "sha256": "32bc55f04c715ff46d7610f8e5b19e746e5dbac95ecca0fc32dea1d692907eec"
+    },
+    {
+      "file": "docs/README_UZ.md",
+      "bytes": 2031,
+      "sha256": "d8a464802a818953568ba7be1d81a26f7e8cd5422f708a86c4bf25c62b7a19fc"
+    },
+    {
+      "file": "docs/README_RU.md",
+      "bytes": 2596,
+      "sha256": "e25edfa5c2b00e24a08e47cc61ce5434f2c7422170f0b811dc318559cc28a0f6"
+    },
+    {
+      "file": "docs/README_EN.md",
+      "bytes": 1681,
+      "sha256": "da8fedb06df8a8c62edb238b77aa15fc08b48ce7e20644a5a5284e4c8326c2c4"
+    },
+    {
+      "file": "docs/LICENSE.txt",
+      "bytes": 1971,
+      "sha256": "69fa5de936efe8d1b5d7326644bff78590017e78649d89232a6dcd4277a76cc1"
+    },
+    {
+      "file": "docs/QA-v1.0.0.json",
+      "bytes": 63207,
+      "sha256": "6a3950d77afc31307474c9cccf919f46121bae99f3c75e1069319df493c45d48"
+    },
+    {
+      "file": "docs/QA-v1.0.0.md",
+      "bytes": 2041,
+      "sha256": "cfe515b2821e1107d0dd516dc5cad66652111921521e21d6d2d1144aca8a5ead"
+    },
+    {
+      "file": "docs/QA-STATIC-v1.0.0.json",
+      "bytes": 2575,
+      "sha256": "195a51fb92b57794c06ee6d657ab81871b2130ec4bafafa8a39380ecaa45d3fe"
+    },
+    {
+      "file": "docs/APP-DIFF-v1.0.0.txt",
+      "bytes": 2476,
+      "sha256": "95375c40503ac9a90344932b26d89aa52d9d825fc0ee84f43140ef9e517a6c2b"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-360.png",
+      "bytes": 203542,
+      "sha256": "98a49baf35271f89147a593911566af2917e4ab8d9b3c437c5932e39476e031f"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-375.png",
+      "bytes": 203564,
+      "sha256": "4c22cdfbd07ff3bca97ff97a85f47d30d3cc500bc9ae5d51dab85566705afea8"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-menu-375.png",
+      "bytes": 35830,
+      "sha256": "f800bced9a1f914e14205446fc1a88b80a0ad7c46b0967fe6661dca50bc28a57"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-dialog-375.png",
+      "bytes": 39512,
+      "sha256": "82fd87956e40ac62c1028b9678a1fa93bd217cd33cb66be13642700ab4f608bb"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-390.png",
+      "bytes": 203156,
+      "sha256": "b6e8e918f5742504d30dfe0f866f2b4349155cffa2c770538609d4cec02d2883"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-768.png",
+      "bytes": 208840,
+      "sha256": "acd0ffeb3745daa5802ead58b8e4e1ddc8abc8a8c1df3d5deef355ca03af9caa"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-1440.png",
+      "bytes": 236988,
+      "sha256": "2bcf2d3072f6e34d7418fdd8f9fdab19f6777aa55ca27f586037104383abb6bc"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-360.png",
+      "bytes": 204568,
+      "sha256": "56ed1b5782a31dbf791e693af011b559253c8819b8985c74ffe20188dd12e5e7"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-375.png",
+      "bytes": 205159,
+      "sha256": "e231d86f9ba8abd09acb70f7a3909da4e158c6a835f9d951621d94094bf49578"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-menu-375.png",
+      "bytes": 35140,
+      "sha256": "8f94aff91e1acbfeec63f71af0b1e5c4931a1e4dbad6052bf42fe1c69183fdba"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-dialog-375.png",
+      "bytes": 36952,
+      "sha256": "ca6743b3ccdaf12b9ba4a9d377ccfa56c6e295bb6bd980546d69a12e6d46b749"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-390.png",
+      "bytes": 204250,
+      "sha256": "3f344329ecb87d2d260e0347ff218af848fbc91fa648eb53738f39609657ca65"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-768.png",
+      "bytes": 208042,
+      "sha256": "c7563dd5745c8052060f542ca8b622feef5adb01599dd4a542d2e829fa19058f"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-1440.png",
+      "bytes": 239082,
+      "sha256": "d3f74810a0410c8c08542b61b8806eb9d06b157ed4a3fd3a3ab1e6f83a3172fa"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-360.png",
+      "bytes": 199364,
+      "sha256": "d2d2ddda216a4448240912c5fd764c922e806cb1b1fb008c6a592bfc27afa192"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-375.png",
+      "bytes": 199131,
+      "sha256": "9d4e6c25bb1f9e8f4f74fb6c53be821e8b07e2fb617b2336978fb3d0b3326385"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-menu-375.png",
+      "bytes": 38755,
+      "sha256": "aab57f48d222cd9a01159df9844fa0c0f088a978f5d92b1fb7b81c0e4c7faf6c"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-dialog-375.png",
+      "bytes": 40249,
+      "sha256": "7aa44846f323dd360959e19e2a1ec75cd43a86e13bec2370a245b4ac5ab00170"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-390.png",
+      "bytes": 199368,
+      "sha256": "b219fb3f84ad527eef1573137880f4f8fe82ea234f402ede83f35cc1fb5acef3"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-768.png",
+      "bytes": 205078,
+      "sha256": "b9c505a1c353efc7b3ca7dfc44a27bb1e7b3cbe7669d0a560aa325214ef5a35c"
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-1440.png",
+      "bytes": 230013,
+      "sha256": "bbca6620d96e238aba56047fd7dcc81aace81a8e3fe31d2b8e6b99c48256e651"
+    },
+    {
+      "file": "seller/GUMROAD-LISTING.md",
+      "bytes": 3299,
+      "sha256": "9bc820d216bf302e94e6316af3df8cd3890bb98851e57059c55cf2b9e73260b9"
+    },
+    {
+      "file": "seller/RELEASE-CHECKLIST.md",
+      "bytes": 885,
+      "sha256": "6f4fae143de5e7d24ae67fdb6dfe8920e528b77a400b18bf795c000c87391e7e"
+    },
+    {
+      "file": "seller/cover.html",
+      "bytes": 1684,
+      "sha256": "b8e62c0337be06bd3822eaf5746e4d60498784edabcda8b37f1146a572a5b099"
+    },
+    {
+      "file": "seller/cover.png",
+      "bytes": 105222,
+      "sha256": "f190ff1df629660c5398d7625504777c2c673e5b9a23149692cd9b1994416552"
+    }
+  ]
+}

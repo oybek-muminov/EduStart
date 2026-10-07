@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "status": { "type": "string", "enum": ["passed", "blocked"] },
+    "blocker": { "type": ["string", "null"] },
+    "task_id": { "type": "string" },
+    "version": { "type": "string" },
+    "file_upload_id": { "type": ["string", "null"] },
+    "task_url": { "type": ["string", "null"] },
+    "artifact_sha256": { "type": "string" },
+    "readback_verified": { "type": "boolean" }
+  },
+  "required": ["status", "blocker", "task_id", "version", "file_upload_id", "task_url", "artifact_sha256", "readback_verified"],
+  "additionalProperties": false
+}

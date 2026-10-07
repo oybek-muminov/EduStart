@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "status": { "type": "string", "enum": ["passed", "blocked"] },
+    "blocker": { "type": ["string", "null"] },
+    "pagination_complete": { "type": "boolean" },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "product_id": { "type": "string" },
+          "source_id": { "type": "string" },
+          "status": { "type": "string" },
+          "marker": {
+            "type": "object",
+            "properties": {
+              "automation": { "type": "string" },
+              "project": { "type": "string" },
+              "ready": { "type": "boolean" },
+              "version": { "type": "string" },
+              "kind": { "type": "string" }
+            },
+            "required": ["automation", "project", "ready", "version", "kind"],
+            "additionalProperties": false
+          }
+        },
+        "required": ["id", "title", "product_id", "source_id", "status", "marker"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["status", "blocker", "pagination_complete", "tasks"],
+  "additionalProperties": false
+}

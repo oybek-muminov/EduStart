@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "status": { "type": "string", "enum": ["passed", "blocked"] },
+    "notion_read_verified": { "type": "boolean" },
+    "page_title": { "type": ["string", "null"] },
+    "blocker": { "type": ["string", "null"] },
+    "tools_used": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["status", "notion_read_verified", "page_title", "blocker", "tools_used"],
+  "additionalProperties": false
+}

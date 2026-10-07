@@ -1,0 +1,17 @@
+{
+  "project": "EduStart",
+  "product_id": "3ee063b085c28120a939cfbd9e7aeced",
+  "task_source_id": "bf44dfd3547c499bac38f975e682c7bc",
+  "task_view_url": "view://137ece7c-4132-420a-8ec6-c17ea04836cf",
+  "codex_js": "C:/Users/Oybek/AppData/Roaming/npm/node_modules/@openai/codex/bin/codex.js",
+  "allowed_kinds": ["static-audit", "site-fix-qa"],
+  "write_approval_mode": "automatic-review",
+  "max_attempts": 3,
+  "exec_timeout_seconds": 600,
+  "qa_timeout_seconds": 1800,
+  "schedule_enabled": false,
+  "reviewer_access_verified": false,
+  "qa_review_approved": false,
+  "storage": "notion-attachment-on-task",
+  "smoke_task_id": "3ee063b085c281c0920febc6f739e816"
+}

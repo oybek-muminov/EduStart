@@ -1,0 +1,384 @@
+{
+  "product": "EduStart UZ/RU/EN",
+  "version": "1.0.0",
+  "technical_qa": "passed",
+  "matrix": 15,
+  "actual_language_transitions": 30,
+  "configured_contact_checks": 30,
+  "genuine_png": 21,
+  "zip": {
+    "file": "release/EduStart_UZ_RU_EN_v1.0.0.zip",
+    "bytes": 3253356,
+    "files": 44,
+    "sha256": "3ca77a6b62391864c1f66e94094d007b17003630cdc669d141908a6c66fce0db",
+    "crc": "PASS",
+    "manifest_and_stage_bytes": "PASS",
+    "remote_readback_verified": false
+  },
+  "text_artifacts": [
+    {
+      "file": "docs/COPY_EN.json",
+      "id": "3ef063b0-85c2-8138-9ccd-00b2e9124d48",
+      "source": "file-upload://3ef063b0-85c2-8138-9ccd-00b2e9124d48",
+      "sha256": "32fb7a41789ff661e356d3effe2159c4f7ef9576fb69e380234728624d3c9a21",
+      "bytes": 4005,
+      "readback_verified": true,
+      "task_id": "3ee063b085c28148addaf1bae371655c"
+    },
+    {
+      "file": "docs/COPY_UZ_RU_EN.json",
+      "id": "3ef063b0-85c2-8108-9c79-00b2e4bd2ce9",
+      "source": "file-upload://3ef063b0-85c2-8108-9c79-00b2e4bd2ce9",
+      "sha256": "32bc55f04c715ff46d7610f8e5b19e746e5dbac95ecca0fc32dea1d692907eec",
+      "bytes": 16133,
+      "readback_verified": true,
+      "task_id": "3ee063b085c28148addaf1bae371655c"
+    },
+    {
+      "file": "docs/SOURCES-v1.0.0.json",
+      "id": "3ef063b0-85c2-81cd-ba82-00b268335b0e",
+      "source": "file-upload://3ef063b0-85c2-81cd-ba82-00b268335b0e",
+      "sha256": "b96f51fec7d6c186a65115ed1421bdba5b958c4a75327b8371af63b5dd887afc",
+      "bytes": 43239,
+      "readback_verified": true,
+      "task_id": "3ee063b085c281d3b7f0c81ce24d2359"
+    },
+    {
+      "file": "docs/QA-v1.0.0.json",
+      "id": "3ef063b0-85c2-8174-bc44-00b231602652",
+      "source": "file-upload://3ef063b0-85c2-8174-bc44-00b231602652",
+      "sha256": "6a3950d77afc31307474c9cccf919f46121bae99f3c75e1069319df493c45d48",
+      "bytes": 63207,
+      "readback_verified": true,
+      "task_id": "3ee063b085c28191b702d0c7a1bbd771"
+    },
+    {
+      "file": "docs/QA-v1.0.0.md",
+      "id": "3ef063b0-85c2-8129-bdd1-00b26164a428",
+      "source": "file-upload://3ef063b0-85c2-8129-bdd1-00b26164a428",
+      "sha256": "cfe515b2821e1107d0dd516dc5cad66652111921521e21d6d2d1144aca8a5ead",
+      "bytes": 2041,
+      "readback_verified": true,
+      "task_id": "3ee063b085c28191b702d0c7a1bbd771"
+    },
+    {
+      "file": "docs/APP-DIFF-v1.0.0.txt",
+      "id": "3ef063b0-85c2-81f6-bae3-00b2847c0664",
+      "source": "file-upload://3ef063b0-85c2-81f6-bae3-00b2847c0664",
+      "sha256": "95375c40503ac9a90344932b26d89aa52d9d825fc0ee84f43140ef9e517a6c2b",
+      "bytes": 2476,
+      "readback_verified": true,
+      "task_id": "3ee063b085c28191b702d0c7a1bbd771"
+    },
+    {
+      "file": "release/MANIFEST-v1.0.0.json",
+      "id": "3ef063b0-85c2-812d-b0b7-00b22393d0c9",
+      "source": "file-upload://3ef063b0-85c2-812d-b0b7-00b22393d0c9",
+      "sha256": "39782c528af4f62d2bbc313668622cbc5b5a35567ccb4ed66c8cf2bac906031b",
+      "bytes": 7242,
+      "readback_verified": true,
+      "task_id": "3ee063b085c2819aa766e07b8f830a37"
+    },
+    {
+      "file": "release/ZIP-VERIFIED-v1.0.0.json",
+      "id": "3ef063b0-85c2-8153-9db7-00b27b0ebec3",
+      "source": "file-upload://3ef063b0-85c2-8153-9db7-00b27b0ebec3",
+      "sha256": "051fb6b2710c47453e2d057424115e905a5f9bc8be878fb07c8cf00c33fc39e6",
+      "bytes": 348,
+      "readback_verified": true,
+      "task_id": "3ee063b085c2819aa766e07b8f830a37"
+    },
+    {
+      "file": "docs/LICENSE.txt",
+      "id": "3ef063b0-85c2-81c6-9a7d-00b2520c36ce",
+      "source": "file-upload://3ef063b0-85c2-81c6-9a7d-00b2520c36ce",
+      "sha256": "69fa5de936efe8d1b5d7326644bff78590017e78649d89232a6dcd4277a76cc1",
+      "bytes": 1971,
+      "readback_verified": true,
+      "task_id": "3ee063b085c2819aa766e07b8f830a37"
+    },
+    {
+      "file": "seller/GUMROAD-LISTING.md",
+      "id": "3ef063b0-85c2-81d3-b4c4-00b2ec428335",
+      "source": "file-upload://3ef063b0-85c2-81d3-b4c4-00b2ec428335",
+      "sha256": "9bc820d216bf302e94e6316af3df8cd3890bb98851e57059c55cf2b9e73260b9",
+      "bytes": 3299,
+      "readback_verified": true,
+      "task_id": "3ee063b085c2818a857ad28f87f2208e"
+    }
+  ],
+  "binary_artifacts": [
+    {
+      "file": "docs/evidence-v1.0.0/ru-768.png",
+      "name": "ru-768.png",
+      "file_upload_id": "3ef063b0-85c2-8102-ad65-00b22b9eba2e",
+      "source": "file-upload://3ef063b0-85c2-8102-ad65-00b22b9eba2e",
+      "bytes": 208042,
+      "sha256": "c7563dd5745c8052060f542ca8b622feef5adb01599dd4a542d2e829fa19058f",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-768.png",
+      "name": "uz-768.png",
+      "file_upload_id": "3ef063b0-85c2-811e-a7d8-00b26de5ba63",
+      "source": "file-upload://3ef063b0-85c2-811e-a7d8-00b26de5ba63",
+      "bytes": 208840,
+      "sha256": "acd0ffeb3745daa5802ead58b8e4e1ddc8abc8a8c1df3d5deef355ca03af9caa",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-menu-375.png",
+      "name": "ru-menu-375.png",
+      "file_upload_id": "3ef063b0-85c2-813f-a543-00b240b1d1da",
+      "source": "file-upload://3ef063b0-85c2-813f-a543-00b240b1d1da",
+      "bytes": 35140,
+      "sha256": "8f94aff91e1acbfeec63f71af0b1e5c4931a1e4dbad6052bf42fe1c69183fdba",
+      "readback_verified": false
+    },
+    {
+      "file": "seller/cover.png",
+      "name": "cover.png",
+      "file_upload_id": "3ef063b0-85c2-8142-85ef-00b2e495b50b",
+      "source": "file-upload://3ef063b0-85c2-8142-85ef-00b2e495b50b",
+      "bytes": 105222,
+      "sha256": "f190ff1df629660c5398d7625504777c2c673e5b9a23149692cd9b1994416552",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-1440.png",
+      "name": "ru-1440.png",
+      "file_upload_id": "3ef063b0-85c2-8144-9977-00b2cf27b387",
+      "source": "file-upload://3ef063b0-85c2-8144-9977-00b2cf27b387",
+      "bytes": 239082,
+      "sha256": "d3f74810a0410c8c08542b61b8806eb9d06b157ed4a3fd3a3ab1e6f83a3172fa",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-390.png",
+      "name": "ru-390.png",
+      "file_upload_id": "3ef063b0-85c2-8149-8f09-00b23d9e63d2",
+      "source": "file-upload://3ef063b0-85c2-8149-8f09-00b23d9e63d2",
+      "bytes": 204250,
+      "sha256": "3f344329ecb87d2d260e0347ff218af848fbc91fa648eb53738f39609657ca65",
+      "readback_verified": false
+    },
+    {
+      "file": "release/EduStart_UZ_RU_EN_v1.0.0.zip",
+      "name": "EduStart_UZ_RU_EN_v1.0.0.zip",
+      "file_upload_id": "3ef063b0-85c2-8149-9d64-00b28d7663f0",
+      "source": "file-upload://3ef063b0-85c2-8149-9d64-00b28d7663f0",
+      "bytes": 3253356,
+      "sha256": "3ca77a6b62391864c1f66e94094d007b17003630cdc669d141908a6c66fce0db",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-360.png",
+      "name": "en-360.png",
+      "file_upload_id": "3ef063b0-85c2-814e-aa63-00b2f8f8ac2b",
+      "source": "file-upload://3ef063b0-85c2-814e-aa63-00b2f8f8ac2b",
+      "bytes": 199364,
+      "sha256": "d2d2ddda216a4448240912c5fd764c922e806cb1b1fb008c6a592bfc27afa192",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-390.png",
+      "name": "en-390.png",
+      "file_upload_id": "3ef063b0-85c2-815f-9ed5-00b26406c80e",
+      "source": "file-upload://3ef063b0-85c2-815f-9ed5-00b26406c80e",
+      "bytes": 199368,
+      "sha256": "b219fb3f84ad527eef1573137880f4f8fe82ea234f402ede83f35cc1fb5acef3",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-1440.png",
+      "name": "en-1440.png",
+      "file_upload_id": "3ef063b0-85c2-8161-8bfb-00b2c09e5a55",
+      "source": "file-upload://3ef063b0-85c2-8161-8bfb-00b2c09e5a55",
+      "bytes": 230013,
+      "sha256": "bbca6620d96e238aba56047fd7dcc81aace81a8e3fe31d2b8e6b99c48256e651",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-menu-375.png",
+      "name": "en-menu-375.png",
+      "file_upload_id": "3ef063b0-85c2-8167-bca2-00b2817291fd",
+      "source": "file-upload://3ef063b0-85c2-8167-bca2-00b2817291fd",
+      "bytes": 38755,
+      "sha256": "aab57f48d222cd9a01159df9844fa0c0f088a978f5d92b1fb7b81c0e4c7faf6c",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-dialog-375.png",
+      "name": "uz-dialog-375.png",
+      "file_upload_id": "3ef063b0-85c2-8171-a6a2-00b262f94207",
+      "source": "file-upload://3ef063b0-85c2-8171-a6a2-00b262f94207",
+      "bytes": 39512,
+      "sha256": "82fd87956e40ac62c1028b9678a1fa93bd217cd33cb66be13642700ab4f608bb",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-390.png",
+      "name": "uz-390.png",
+      "file_upload_id": "3ef063b0-85c2-8186-823e-00b2bf1204a5",
+      "source": "file-upload://3ef063b0-85c2-8186-823e-00b2bf1204a5",
+      "bytes": 203156,
+      "sha256": "b6e8e918f5742504d30dfe0f866f2b4349155cffa2c770538609d4cec02d2883",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-375.png",
+      "name": "en-375.png",
+      "file_upload_id": "3ef063b0-85c2-8191-a6e2-00b258977906",
+      "source": "file-upload://3ef063b0-85c2-8191-a6e2-00b258977906",
+      "bytes": 199131,
+      "sha256": "9d4e6c25bb1f9e8f4f74fb6c53be821e8b07e2fb617b2336978fb3d0b3326385",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-375.png",
+      "name": "ru-375.png",
+      "file_upload_id": "3ef063b0-85c2-8199-816f-00b25b4cc816",
+      "source": "file-upload://3ef063b0-85c2-8199-816f-00b25b4cc816",
+      "bytes": 205159,
+      "sha256": "e231d86f9ba8abd09acb70f7a3909da4e158c6a835f9d951621d94094bf49578",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-menu-375.png",
+      "name": "uz-menu-375.png",
+      "file_upload_id": "3ef063b0-85c2-819a-ad1d-00b2ea002548",
+      "source": "file-upload://3ef063b0-85c2-819a-ad1d-00b2ea002548",
+      "bytes": 35830,
+      "sha256": "f800bced9a1f914e14205446fc1a88b80a0ad7c46b0967fe6661dca50bc28a57",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-dialog-375.png",
+      "name": "ru-dialog-375.png",
+      "file_upload_id": "3ef063b0-85c2-819b-b619-00b2ff8b4889",
+      "source": "file-upload://3ef063b0-85c2-819b-b619-00b2ff8b4889",
+      "bytes": 36952,
+      "sha256": "ca6743b3ccdaf12b9ba4a9d377ccfa56c6e295bb6bd980546d69a12e6d46b749",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-360.png",
+      "name": "uz-360.png",
+      "file_upload_id": "3ef063b0-85c2-81a0-ad22-00b285cc747c",
+      "source": "file-upload://3ef063b0-85c2-81a0-ad22-00b285cc747c",
+      "bytes": 203542,
+      "sha256": "98a49baf35271f89147a593911566af2917e4ab8d9b3c437c5932e39476e031f",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/ru-360.png",
+      "name": "ru-360.png",
+      "file_upload_id": "3ef063b0-85c2-81a2-b4d3-00b2100cb678",
+      "source": "file-upload://3ef063b0-85c2-81a2-b4d3-00b2100cb678",
+      "bytes": 204568,
+      "sha256": "56ed1b5782a31dbf791e693af011b559253c8819b8985c74ffe20188dd12e5e7",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-dialog-375.png",
+      "name": "en-dialog-375.png",
+      "file_upload_id": "3ef063b0-85c2-81ae-bc64-00b292da7c95",
+      "source": "file-upload://3ef063b0-85c2-81ae-bc64-00b292da7c95",
+      "bytes": 40249,
+      "sha256": "7aa44846f323dd360959e19e2a1ec75cd43a86e13bec2370a245b4ac5ab00170",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/en-768.png",
+      "name": "en-768.png",
+      "file_upload_id": "3ef063b0-85c2-81cd-8379-00b2638667b7",
+      "source": "file-upload://3ef063b0-85c2-81cd-8379-00b2638667b7",
+      "bytes": 205078,
+      "sha256": "b9c505a1c353efc7b3ca7dfc44a27bb1e7b3cbe7669d0a560aa325214ef5a35c",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-1440.png",
+      "name": "uz-1440.png",
+      "file_upload_id": "3ef063b0-85c2-81eb-9698-00b2e1717349",
+      "source": "file-upload://3ef063b0-85c2-81eb-9698-00b2e1717349",
+      "bytes": 236988,
+      "sha256": "2bcf2d3072f6e34d7418fdd8f9fdab19f6777aa55ca27f586037104383abb6bc",
+      "readback_verified": false
+    },
+    {
+      "file": "docs/evidence-v1.0.0/uz-375.png",
+      "name": "uz-375.png",
+      "file_upload_id": "3ef063b0-85c2-81fc-8aa6-00b2f094459d",
+      "source": "file-upload://3ef063b0-85c2-81fc-8aa6-00b2f094459d",
+      "bytes": 203564,
+      "sha256": "4c22cdfbd07ff3bca97ff97a85f47d30d3cc500bc9ae5d51dab85566705afea8",
+      "readback_verified": false
+    }
+  ],
+  "notion_pages": [
+    {
+      "task": "3ee063b085c28148addaf1bae371655c",
+      "title": "02. Inglizcha matnlarni tayyorlash — EduStart UZ/RU/EN",
+      "status": "Tasdiq kutilmoqda",
+      "file_blocks": 2,
+      "images": 0,
+      "has_v1": true
+    },
+    {
+      "task": "3ee063b085c281d3b7f0c81ce24d2359",
+      "title": "03. EN sahifa va uch til almashinuvini qo‘shish",
+      "status": "Tasdiq kutilmoqda",
+      "file_blocks": 1,
+      "images": 0,
+      "has_v1": true
+    },
+    {
+      "task": "3ee063b085c28191b702d0c7a1bbd771",
+      "title": "04. Uch tilli mobil va funksional QAni yakunlash",
+      "status": "Toʻsiq bor",
+      "file_blocks": 3,
+      "images": 21,
+      "has_v1": true
+    },
+    {
+      "task": "3ee063b085c2819aa766e07b8f830a37",
+      "title": "05. Uch tilli ZIP, yo‘riqnoma va litsenziyani yakunlash",
+      "status": "Toʻsiq bor",
+      "file_blocks": 4,
+      "images": 0,
+      "has_v1": true
+    },
+    {
+      "task": "3ee063b085c2818a857ad28f87f2208e",
+      "title": "06. Gumroad tavsifi, muqova va previewlarni yakunlash",
+      "status": "Toʻsiq bor",
+      "file_blocks": 1,
+      "images": 4,
+      "has_v1": true
+    }
+  ],
+  "binary_readback": {
+    "status": "blocked",
+    "attempts": 3,
+    "outcomes": [
+      "Node HTTPS fetch 30s timeout",
+      "IPv4-first HTTPS fetch 60s timeout",
+      "Chrome network response readback 45s deadline"
+    ],
+    "host": "prod-files-secure.s3.us-west-2.amazonaws.com",
+    "note": "No further readback retries and no duplicate uploads. Metadata/attachment presence is not remote content verification."
+  },
+  "review_state": "awaiting-independent-review",
+  "approval_by": null,
+  "schedule_enabled": false,
+  "published": false,
+  "remaining": [
+    "Authorized independent reviewer opens native ZIP and PNG attachments, verifies SHA256/CRC/visual content",
+    "Oybek sets seller identity, support contact/scope and refund policy, approves license and owns 07 publication"
+  ],
+  "skills": [
+    "ecc:i18n-sync",
+    "ecc:browser-qa"
+  ]
+}

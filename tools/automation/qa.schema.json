@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {"type":"string","enum":["passed","needs_fix","blocked"]},
+    "blocker": {"type":["string","null"]},
+    "summary": {"type":"string"},
+    "browser": {"type":"string"},
+    "changes": {"type":"array","items":{"type":"string"}},
+    "matrix": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "properties": {
+          "lang":{"type":"string","enum":["uz","ru"]},
+          "width":{"type":"integer"},
+          "actual_width":{"type":"integer"},
+          "scroll_width":{"type":"integer"},
+          "client_width":{"type":"integer"},
+          "menu":{"type":"boolean"},
+          "language_switch":{"type":"boolean"},
+          "demo_contacts":{"type":"boolean"},
+          "configured_links":{"type":"boolean"},
+          "keyboard":{"type":"boolean"},
+          "faq":{"type":"boolean"},
+          "console_errors":{"type":"array","items":{"type":"string"}},
+          "failed_requests":{"type":"array","items":{"type":"string"}},
+          "screenshot":{"type":"string"}
+        },
+        "required":["lang","width","actual_width","scroll_width","client_width","menu","language_switch","demo_contacts","configured_links","keyboard","faq","console_errors","failed_requests","screenshot"],
+        "additionalProperties":false
+      }
+    }
+  },
+  "required":["status","blocker","summary","browser","changes","matrix"],
+  "additionalProperties":false
+}

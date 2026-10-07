@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-04",
+  "executed_at_utc": "2026-10-03T20:24:47.631Z",
+  "version": "0.1.0",
+  "kind": "STATIC_AND_HTTP_ONLY",
+  "assets": [
+    {
+      "file": "index.html",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "70afc866b6bedb473fdf0f0bcb444f565f448109f20827a6b950a0855ed747e1"
+    },
+    {
+      "file": "ru.html",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "ae2abd06a0b91282e16f22f85e5ca51b9188ae80f8908460325c48a0662afa1b"
+    },
+    {
+      "file": "styles.css",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "8651f1f78bc6ad642e3713d18a8a5c1b48f8947516201adc4121c15b6ac2ccba"
+    },
+    {
+      "file": "app.js",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "d662c4b48395f5a1b2a03143026302b1193dfcb2609d75b682ce230b8a4d50f1"
+    },
+    {
+      "file": "config.js",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "9fcd2b934ceeabaa3ffeb02fd348fb62c1204b9280382b20bcc4c2e0ee990a66"
+    },
+    {
+      "file": "favicon.svg",
+      "http_status": 200,
+      "served_bytes_match": true,
+      "sha256": "953ffb880154918bd90a5fdbbae4ef8a78602aec7cd2c4f808dcdc05de40d62b"
+    }
+  ],
+  "pages": [
+    {
+      "file": "index.html",
+      "lang": "uz",
+      "sections": 7,
+      "unique_ids": true,
+      "local_links_and_assets": "PASS",
+      "language_link": "PASS",
+      "demo_contact_markup": "PASS"
+    },
+    {
+      "file": "ru.html",
+      "lang": "ru",
+      "sections": 7,
+      "unique_ids": true,
+      "local_links_and_assets": "PASS",
+      "language_link": "PASS",
+      "demo_contact_markup": "PASS"
+    }
+  ],
+  "javascript_syntax": "PASS",
+  "shipped_config": "PASS: demo=true; contacts blank",
+  "browser_checks": "NOT RUN",
+  "screenshots": "NOT CAPTURED",
+  "requested_widths": [
+    375,
+    768,
+    1440
+  ],
+  "original_notion_widths": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "browser_blockers": [
+    "cua.getState: browsers=[]; apps=[]",
+    "cua.createBrowserTab: Browser is not available: iab",
+    "sky.list_apps: Computer Use native pipe is unavailable (os error 2)"
+  ],
+  "unverified": [
+    "visual layout",
+    "horizontal overflow",
+    "browser console",
+    "menu interactions",
+    "keyboard navigation",
+    "language navigation",
+    "demo dialog",
+    "configured Telegram/phone/map links",
+    "FAQ"
+  ],
+  "site_changes": "NONE: no confirmed browser defect",
+  "outbound_contacts": "NONE",
+  "release_status": "BLOCKED: browser QA, cover and final seller/package work pending"
+}
