@@ -1,5 +1,53 @@
 # EduStart UZ/RU/EN — keyingi sessiyaga topshirish
 
+## Pauza — 2026-10-07 (Asia/Tashkent)
+
+Foydalanuvchi talabi bilan ish xavfsiz nuqtada pauza qilindi. Yangi vazifa
+boshlanmasin; davom ettirish faqat foydalanuvchining yangi ko‘rsatmasidan keyin.
+Quyidagi eski qaydlar tarix va dalillar uchun saqlandi.
+
+### Bajarilgan ishlar va tekshirilgan holat
+
+- Sessiya boshida `main` ishchi daraxti toza, `origin/main` bilan teng edi.
+  Oxirgi loyiha commit: `42442d2` (`update`); mahsulot o‘zgarishlari unda saqlangan.
+- UZ/RU/EN v1.0.0 sayt, hujjatlar, oldingi haqiqiy Chrome QA dalillari, muqova
+  va ZIP mavjud. Bu sessiyada yangi brauzer QA yoki Notion amali bajarilmadi.
+- `node tools/verify-product-zip.cjs`: PASS; 44 fayl, CRC va manifest/stage
+  baytlari mos. ZIP SHA256:
+  `3ca77a6b62391864c1f66e94094d007b17003630cdc669d141908a6c66fce0db`.
+- `node --test tools/automation/core.test.cjs tools/automation/site-qa.test.cjs`:
+  9 testdan 8 PASS, 1 FAIL. Quyida sabab qayd etilgan.
+- Loyiha nomi va QA/server/automation buyruqlari bo‘yicha Windows jarayonlari
+  tekshirildi; mos faol node/codex/python/cmd jarayoni topilmadi.
+  `schedule_enabled`, `reviewer_access_verified`, `qa_review_approved` — false.
+  Runner/scheduler ishga tushirilmadi; lock/ledger va oldingi dalillar saqlandi.
+- Git kuzatadigan maxfiy fayl nomlari va loyiha matnlarida token, private key,
+  credential query hamda signed URL belgilari tekshirildi; mos qiymat topilmadi.
+  Umumiy secret/password/API key so‘zlari faqat hujjatdagi ogohlantirishlarda.
+  `.automation/` Git tomonidan e’tiborsiz qoldiriladi; mahalliy loglar qo‘shilmasin.
+
+### Qolgan vazifalar va to‘siqlar
+
+1. Eski automation auditini uch tilga moslashtirish kerak: `core.cjs` inventory
+   ro‘yxatida `en.html` yo‘q. Shu sabab `index.html` va `ru.html`dagi EN havolalari
+   auditni `blocked` qiladi va `core.test.cjs:47` testi yiqiladi. Pauza vaqtida
+   tuzatilmadi; ushbu runnerni uch tilli mahsulotga avtomatik qo‘llamang.
+2. Notiondagi ZIP/PNG binar fayllarining remote readback/hash tekshiruvi oldingi
+   S3 timeout sabab tugamagan. Ruxsatli sessiyada mustaqil tekshirilsin;
+   muvaffaqiyatli uploadni bayt tekshiruvi deb hisoblamang, qayta upload shart emas.
+3. Mahsulot uchun mustaqil vizual/texnik tasdiq va tekshiruvchining Notionga
+   kirishi hali tasdiqlanmagan. Oldingi smoke-2 lock/ledger holatini davom
+   ettirishdan oldin reconcile qilish kerak; ko‘r-ko‘rona o‘chirmang.
+4. Oybek seller identity, support/refund va litsenziya shartlarini yakunlab,
+   tasdiqlangan paketni Gumroadga nashr qilishi qolgan. Nashr bajarilmagan.
+
+### Git topshirish chegarasi
+
+Ushbu sessiyadagi yangi o‘zgarish — HANDOFF.md pauza qaydi. Uni `main`ga
+commit qilib `origin`ga push qilish foydalanuvchi tomonidan so‘ralgan.
+Maxfiy qiymatlar, `.automation/` yoki lokal credential fayllari qo‘shilmasin.
+Commit/push natijasi sessiyaning yakuniy javobida beriladi.
+
 ## Joriy mahsulot — v1.0.0, 2026-10-04
 
 Avval Notion mahsulot kartasi va mavjud 02–07 vazifalar qayta o‘qildi. Yangi
