@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "integration": "repo-skills",
+  "upstream": {
+    "repository": "https://github.com/affaan-m/ECC",
+    "commit": "ef648e01899ba3e8dc6371642deaaf64b4477775"
+  },
+  "license": {
+    "path": "third_party/ecc/LICENSE",
+    "sourcePath": "LICENSE",
+    "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+  },
+  "skills": [
+    {
+      "name": "ecc-coding-standards",
+      "path": ".agents/skills/ecc-coding-standards",
+      "files": [
+        {
+          "path": ".agents/skills/ecc-coding-standards/SKILL.md",
+          "role": "adapter",
+          "sha256": "4386084ca30f2eb21dd6d186d279bc245c43e41ac93332d4e8fb9ef3ed9e7db2"
+        },
+        {
+          "path": ".agents/skills/ecc-coding-standards/agents/openai.yaml",
+          "role": "metadata",
+          "sha256": "bf76c69bc97b0f14aba775d67f1979f3bfe56283a9b6859bf64288daac1fc228"
+        },
+        {
+          "path": ".agents/skills/ecc-coding-standards/references/upstream.md",
+          "role": "upstream",
+          "sha256": "7295014cdb95589b28e9ac687e0c40a7fd329288e18a0e6fb6c5b1ed58437a0d",
+          "sourcePath": ".agents/skills/coding-standards/SKILL.md"
+        }
+      ]
+    },
+    {
+      "name": "ecc-security-review",
+      "path": ".agents/skills/ecc-security-review",
+      "files": [
+        {
+          "path": ".agents/skills/ecc-security-review/SKILL.md",
+          "role": "adapter",
+          "sha256": "665149b8e4b6a7aa3fb1c5e8dce62b9397c4c5da2462a461b80df4b522e6e6fb"
+        },
+        {
+          "path": ".agents/skills/ecc-security-review/agents/openai.yaml",
+          "role": "metadata",
+          "sha256": "7b40de96c6a98e65b220f355b6772a0926530df92a20081757b341915add84fd"
+        },
+        {
+          "path": ".agents/skills/ecc-security-review/references/upstream.md",
+          "role": "upstream",
+          "sha256": "81d7a4cbf8509963539cbe2e3d3ecbde33077d9fa63bc7c8f6d09e7eb7531743",
+          "sourcePath": ".agents/skills/security-review/SKILL.md"
+        }
+      ]
+    },
+    {
+      "name": "ecc-tdd-workflow",
+      "path": ".agents/skills/ecc-tdd-workflow",
+      "files": [
+        {
+          "path": ".agents/skills/ecc-tdd-workflow/SKILL.md",
+          "role": "adapter",
+          "sha256": "96c34fd69f4a880c94de3813f90f47ca71d111f09e97f486f8d00e8212cb32ba"
+        },
+        {
+          "path": ".agents/skills/ecc-tdd-workflow/agents/openai.yaml",
+          "role": "metadata",
+          "sha256": "7f625823c1ad633bd3a7a4459796590fc27725999de9035998507e6840e211b9"
+        },
+        {
+          "path": ".agents/skills/ecc-tdd-workflow/references/upstream.md",
+          "role": "upstream",
+          "sha256": "e9507695657b05f26dd62127f1d6ff58e4015d624df65dd4d7e07f6470317393",
+          "sourcePath": ".agents/skills/tdd-workflow/SKILL.md"
+        }
+      ]
+    },
+    {
+      "name": "ecc-verification-loop",
+      "path": ".agents/skills/ecc-verification-loop",
+      "files": [
+        {
+          "path": ".agents/skills/ecc-verification-loop/SKILL.md",
+          "role": "adapter",
+          "sha256": "f419dde5a83d7156196fec8fff1e5463f58171da85f169681945b9924bac503b"
+        },
+        {
+          "path": ".agents/skills/ecc-verification-loop/agents/openai.yaml",
+          "role": "metadata",
+          "sha256": "eed7a8f20f575c72b614e1889ccf08344801449d820084a1e5b37b6354a8ec3c"
+        },
+        {
+          "path": ".agents/skills/ecc-verification-loop/references/upstream.md",
+          "role": "upstream",
+          "sha256": "6d4a399d856207297168cc03f3f8c90d4085ff14566bb928af3c97d9a31f2650",
+          "sourcePath": ".agents/skills/verification-loop/SKILL.md"
+        }
+      ]
+    }
+  ]
+}
